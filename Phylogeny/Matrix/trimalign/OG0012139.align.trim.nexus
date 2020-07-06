@@ -1,0 +1,73 @@
+#NEXUS
+
+
+BEGIN DATA;
+ DIMENSIONS NTAX=20 NCHAR=80;
+ FORMAT DATATYPE=PROTEIN INTERLEAVE=yes GAP=-;
+[Name: Blattella_germanica			Len: 80 Check: 0]
+[Name: Cryptocercus_pudacoensis			Len: 80 Check: 0]
+[Name: Cryptotermes_brevis			Len: 80 Check: 0]
+[Name: Coptotermes_formosanus			Len: 80 Check: 0]
+[Name: Cryptocercus_meridianus			Len: 80 Check: 0]
+[Name: Kalotermes_flavicollis			Len: 80 Check: 0]
+[Name: Indotermes			Len: 80 Check: 0]
+[Name: Mirocapri			Len: 80 Check: 0]
+[Name: Nasutitermes			Len: 80 Check: 0]
+[Name: Mastotermes_darwiniensis			Len: 80 Check: 0]
+[Name: Neotermes_castaneus			Len: 80 Check: 0]
+[Name: Prorhinotermes_inopiinatus			Len: 80 Check: 0]
+[Name: Reticulitermes			Len: 80 Check: 0]
+[Name: Reticulitermes_speratus			Len: 80 Check: 0]
+[Name: Blaberus_atropos			Len: 80 Check: 0]
+[Name: Cryptocercus_wrighti			Len: 80 Check: 0]
+[Name: Eupolyphaga_sinensis			Len: 80 Check: 0]
+[Name: Odontotermes_formosanus			Len: 80 Check: 0]
+[Name: Prorhinotermes_simplex			Len: 80 Check: 0]
+[Name: Zootermopsis			Len: 80 Check: 0]
+
+MATRIX
+Blattella_germanica            MGMCFPCFKS STDLTPDLET RRRQQMQAAE KRRIDQENRG IKDPEKFRAQ
+Cryptocercus_pudacoensis       MGMCLSCFKS STDLTPDLEI RRRQQIEAAE RRMQEQDKRG IKDPERFKLQ
+Cryptotermes_brevis            MGMCFSCFKS STDSTPDLEV KRRQQIEAAE RRMREQETRG IKDPERFQRE
+Coptotermes_formosanus         MGLCFPCFKS STALTPDVET RRRHQMEAVE RRMREQEARG IKDPERFKLQ
+Cryptocercus_meridianus        MGMCLSCFKS STDLTPDLET RRRQQIEAAE RRMQEQDNRG IKDPERFKLQ
+Kalotermes_flavicollis         LDLWLP---- ---VMPVVEV RRRQQIEAAE RRMREQETRG IKDPERFKRE
+Indotermes                     MGMCLPCFKS STDLTPDMET RRRHQAEAAE RRMREQEARG IKDPERFRLQ
+Mirocapri                      MGMCFPCFKS STDLTPDVET RRRHQVEAAQ RRMKAQDARG IKDPDRVKIQ
+Nasutitermes                   MGMCFPCFKS STDLTPDVEL RRRQQIEAAE RRMRAQEARG IKDPERLKIQ
+Mastotermes_darwiniensis       MGVCFPCFKS STDLTPDVET RRRQQIEAAE RRMREQENRG IKDPERFKLQ
+Neotermes_castaneus            MGMCFPCFKS STDSTPDLEV KRRQQIEAAE RRIREQATRG IKDPERFQRE
+Prorhinotermes_inopiinatus     MGMCFPCFKS STDLTPDVEI RRRHQIEAAE RRMREQEARG IKDPERFKLQ
+Reticulitermes                 MGMCFPCFKS STDLTPDMET RRRQQIEAAE RRMREQEVRG IKDPERFKLQ
+Reticulitermes_speratus        MGMCFPCFKS STDLTPDMET RRRHQIEAAE RRMREQEVRG IKDPERFKLQ
+Blaberus_atropos               MGACFPCFKS STDLTPDMET RRKQQAEAAE RRLREQEGRG MKDPERYKMQ
+Cryptocercus_wrighti           MGMCLSCFKS STDLTPDLET RRRQQIEAAE KRMQEQENRG IRDPQRFKLQ
+Eupolyphaga_sinensis           MGLCLPCFKS STDLTPDVET RRRQQIEAAE RRMKEQENRG IRDPEKFRQQ
+Odontotermes_formosanus        MGMCFPCFKS STDLTPDVET RRRHQIEAAE KRMREQEARG IKDPERYKLQ
+Prorhinotermes_simplex         MGMCFPCFKS STDLTPDVEI RRRHQIEAAE RRMREQETRG IKEPERFKLQ
+Zootermopsis                   MGMCFPCFKS STDLTPDMET RRRQQIQAAE RRMREQESRG IKDPERFKHQ
+
+Blattella_germanica            QQRRLELEKR QEEADKQNTG -GEGLKWQVD
+Cryptocercus_pudacoensis       QQRKEELERR QQEAEKNYKG EGGGLKWQVD
+Cryptotermes_brevis            KRKKQELERR QEEAEKKYTG EGGQLKWQVE
+Coptotermes_formosanus         QLKKEELERR QEEAERKHAG EGGGLRWQVD
+Cryptocercus_meridianus        QQRKEELERR QQEAEKNYKG EGGGLKWQVN
+Kalotermes_flavicollis         KRKKEELERR QEEAEKKYTE E-GGLQWQVD
+Indotermes                     QLKKEELERR QEEAVRKHAE EGGGLRWQMD
+Mirocapri                      QLKKEELERR QEEAERKHAG EGGGLRWQVD
+Nasutitermes                   QLKKEELERR QEEAERKHAG EGGGLRWQVD
+Mastotermes_darwiniensis       QVRKEELERR QEEAEKKYTG DGGELK----
+Neotermes_castaneus            KRKKQELERR QEEAEKKYTG EGGELKWQVD
+Prorhinotermes_inopiinatus     QLKKEELDRR QQEAERKHAG EGGGLRWQVD
+Reticulitermes                 QLKKEELERR QEEAERKHAG EGGGLKWQVD
+Reticulitermes_speratus        QLKKEELERR QEEAERKHAG EGGGIRGVVG
+Blaberus_atropos               QQRMQELERR QEEAEKKNVG ----------
+Cryptocercus_wrighti           QQRKEELERR QQEAEKNYKG EGGGLKWQVD
+Eupolyphaga_sinensis           QQRKEEMERR QEEAEKQNIG GGTALKWQVS
+Odontotermes_formosanus        QLKKEELERR QEETERKHAG EGGGLRWQVE
+Prorhinotermes_simplex         QLKKEELDRR QQEAERKHAG EGGGLRWQVD
+Zootermopsis                   QLKKEECERR QEEAQKASTG AGGGLKWQVD
+
+
+;
+END;

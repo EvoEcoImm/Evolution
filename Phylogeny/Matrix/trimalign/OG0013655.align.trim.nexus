@@ -1,0 +1,95 @@
+#NEXUS
+
+
+BEGIN DATA;
+ DIMENSIONS NTAX=16 NCHAR=165;
+ FORMAT DATATYPE=PROTEIN INTERLEAVE=yes GAP=-;
+[Name: Cryptotermes_brevis			Len: 165 Check: 0]
+[Name: Coptotermes_formosanus			Len: 165 Check: 0]
+[Name: Cryptocercus_meridianus			Len: 165 Check: 0]
+[Name: Hodotermopsis_sjostedti			Len: 165 Check: 0]
+[Name: Kalotermes_flavicollis			Len: 165 Check: 0]
+[Name: Pericapri			Len: 165 Check: 0]
+[Name: Indotermes			Len: 165 Check: 0]
+[Name: Mirocapri			Len: 165 Check: 0]
+[Name: Globitermes			Len: 165 Check: 0]
+[Name: Mastotermes_darwiniensis			Len: 165 Check: 0]
+[Name: Macrotermes_subhyalinus			Len: 165 Check: 0]
+[Name: Nasutitermes_takasagoensis			Len: 165 Check: 0]
+[Name: Prorhinotermes_inopiinatus			Len: 165 Check: 0]
+[Name: Reticulitermes			Len: 165 Check: 0]
+[Name: Odontotermes_formosanus			Len: 165 Check: 0]
+[Name: Prorhinotermes_simplex			Len: 165 Check: 0]
+
+MATRIX
+Cryptotermes_brevis            MRTLVPFAVV IFIAVATEAS TNYG------ -GYGGSGSGY GGLGSGYGGY
+Coptotermes_formosanus         ---------- ---------- ---------- -GYGGYGRGY GGYGRGYGGY
+Cryptocercus_meridianus        MKTLVPFMLV TFLAVATEVS GGYGEKGPYY GGYGGYGSGY GSYGSGSGSS
+Hodotermopsis_sjostedti        MRTLVPFMAV ILLAVAAEAS AGYGDRNQNY GGYGGYGRGF DGYGSGYGGY
+Kalotermes_flavicollis         MRTLVPLVIV IFIAATTEAS SGYGGYGGYG SGYGGHGSGY GGYGSGYGGY
+Pericapri                      MRALVPFVTV ILLAAVTQCS GGYSDKSLYY SGYGGYGSGY GGYGSGYGGY
+Indotermes                     MRVLIPFVAV IILAATTECS AGYGDKSSYY SGYGGYGSGY GGYGSGYGGI
+Mirocapri                      MRALVPFVTV ILLAVITQCS AGYGDRSTYY SGYGGYGSGY GGYGSGYGGY
+Globitermes                    ---------- ---------- ---------- ---------- ----------
+Mastotermes_darwiniensis       ---------- ---------- ---------- ---------- ----------
+Macrotermes_subhyalinus        MRALVPFVTV VFLAATIECS NGYGDKSSYN SGYGGYGSGY GGY-------
+Nasutitermes_takasagoensis     MKALVPLVTL ILLAVITQCS GGYGDKSSYY SGYGGYGSGY GGYGSGYGGY
+Prorhinotermes_inopiinatus     ---------- ---------- ---------- ---------- ----------
+Reticulitermes                 MRALVPFVTV ILLAAATECS GGYGDKSSYY TGYGGYGSGY GGYGSGYGGY
+Odontotermes_formosanus        MRALVPFVTV ILLAATIECT NGYSDKSSYN SGYGGYGGGY GGY-------
+Prorhinotermes_simplex         MRALVPFVTV ILLAAAAECS DGYGDKTSYY SGYGGYGSGY GGYGSGYGGY
+
+Cryptotermes_brevis            GGWDSSPNYV SGGYGGYRPS YSYGGSRPSY GYDYSSRPSS GYGNGYSYGG
+Coptotermes_formosanus         GGGDYGPSYV SGGYGGYKPS YGYGGYRPSY GYDYDYKPSS GYGNGYSYGG
+Cryptocercus_meridianus        ---------- ---------- ---------- ---------- -YGSG-----
+Hodotermopsis_sjostedti        GGWNYNPNYV SGGYSGFRPN YGSYGYRSSY GSDYGYRPSY GYGNGYSYGG
+Kalotermes_flavicollis         GGWDSSPNYV SGGYGGYRPS YSYGGYRPSY GYDSSYRPSS GYGNGYSYGG
+Pericapri                      G--------- ---------- ---------- ---------- ----------
+Indotermes                     GGWDYGPSYL SGGYGGYRPT YGYGSYKPSY GYDYDYKPSY GYGNGYSYGG
+Mirocapri                      GGWDYGPSYV SGGYGGYRPS SGYGGYKPSY GYDYDYRPSN GYGNGYSYGG
+Globitermes                    ---------- ---------- ---------- ---------- --GNGYSYGG
+Mastotermes_darwiniensis       ---------- ---------S YGSWGYRTSY GSDYGYRPSY GYGNGYSYGG
+Macrotermes_subhyalinus        GGWNYSPSYA SGGYGGYRPS YGYGGYRPSY GYDYDNRPNY GYGNGYSYGG
+Nasutitermes_takasagoensis     GGWDYGPNYV SGGYGGYRPS YGYGGYRPSY GYDYDYRPSY GYGNGYGYGG
+Prorhinotermes_inopiinatus     --WDYSPSYV SGGYGGSRPS YSYGGYRPSY GYDYNYKPSY GYGNGYSYGG
+Reticulitermes                 GGLDYGPSYV SGGYGGYKPS YSYGGYRPSY AYDYDYKPSY GYGNGYSYGG
+Odontotermes_formosanus        GGWNSGPSYV SGGYGGYKPS YGYGSYRPSY GYDYDYRPNY NYGNGYSYGG
+Prorhinotermes_simplex         GGWDYSPSYA SGGYGGSRPS YSYGSNRPSY GYDYNYRPSY GYGNGYSYGG
+
+Cryptotermes_brevis            YGYRYRPSEY YSQGGYGGYR PYDGGYRQGS YYSQGTGGYR PYESGSLGSY
+Coptotermes_formosanus         YGYNYRPSQY YSQGGYGGYR PYDSGYRGGS YYSQGYGSHR PYQGGSYGGY
+Cryptocercus_meridianus        ---------- ---------- ---------- ---------- ----------
+Hodotermopsis_sjostedti        YGTYYKPSGS YSQGGYGGYR PYD------- ----GYGGYR PYQSGSLGGL
+Kalotermes_flavicollis         YGYRYKPSGY YSQGGYGGYR PYDGGYRQGS YYSQGTGGYR PYESGSLGSY
+Pericapri                      ---------- ---------- ---------- ---------- ---------Y
+Indotermes                     YGYNYRPSGY YGHGGYGGYR PYDGGYRGGN YYGQGYGNYR PHQSGSYGGY
+Mirocapri                      YGYNYKPSGY YGQGSYGGYR PYDGGYRGGS YYGQGYGGYR PYQSGSYGGY
+Globitermes                    YGYNYRPSGY YGQGGYGGYR PYDGGYRGGS YYGQGYGGYR PYQSGSYGGY
+Mastotermes_darwiniensis       YGTSYRPSGY YGQSGYGGYR PYDGGYRQGS YYSQGSGGYR PYKSGSLGSY
+Macrotermes_subhyalinus        YGYNYKPSGY YGQSGYGGYR PYDGGYRGGS YYGQGYGGYR PYQSGSYGGY
+Nasutitermes_takasagoensis     YGYNYRPSGY YGQGGYGGYR PYD-GYRGGS YNGQGYGGYR PYQ--SYGGY
+Prorhinotermes_inopiinatus     SGYNYRPSGY YGQGGYGGYR PYDSGYRGGS YYGQGYGNYR PQQSGSYGGY
+Reticulitermes                 HGYNYKPSGY YGQSGYGGYR PYDGGYRGGS YYSQGSGGYR PYQGGSYGGY
+Odontotermes_formosanus        YGYNYRPSGY YGQGGYGGYR PYDGGYRGGS YTGQGYGGYR PYQSGSYGGY
+Prorhinotermes_simplex         SGYNYRPSGY YGQSGYGGYR PYDSGYRGGS YYGQGYGNYR PYQSGSYGGY
+
+Cryptotermes_brevis            GGYRGSDSGY KSGWW
+Coptotermes_formosanus         GGSGVWDSGY KGGWW
+Cryptocercus_meridianus        ---------- -----
+Hodotermopsis_sjostedti        GGHGGYGGDY SA--I
+Kalotermes_flavicollis         GGYRGWDSGY KGGSW
+Pericapri                      GGYG------ -----
+Indotermes                     GGHGVWDSGY KGGWW
+Mirocapri                      GGSGAWDSGY KSGWW
+Globitermes                    GGYGVWDSGY KSGWW
+Mastotermes_darwiniensis       GGYNSWDSGY KSGWW
+Macrotermes_subhyalinus        GGYGGYDSGY KSGWW
+Nasutitermes_takasagoensis     GGYGVWDSGY KSGWL
+Prorhinotermes_inopiinatus     GGYGVSDYGY KSGWW
+Reticulitermes                 GGYGVWDSGY KSGWW
+Odontotermes_formosanus        GGYGGYDSGY KSG--
+Prorhinotermes_simplex         GGYGVSDYGY KSGWW
+
+
+;
+END;

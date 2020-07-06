@@ -1,0 +1,91 @@
+#NEXUS
+
+
+BEGIN DATA;
+ DIMENSIONS NTAX=26 NCHAR=92;
+ FORMAT DATATYPE=PROTEIN INTERLEAVE=yes GAP=-;
+[Name: Blattella_germanica			Len: 92 Check: 0]
+[Name: Blatta_orientalis			Len: 92 Check: 0]
+[Name: Cryptocercus_pudacoensis			Len: 92 Check: 0]
+[Name: Cryptotermes_brevis			Len: 92 Check: 0]
+[Name: Coptotermes_formosanus			Len: 92 Check: 0]
+[Name: Cryptocercus_meridianus			Len: 92 Check: 0]
+[Name: Pericapri			Len: 92 Check: 0]
+[Name: Indotermes			Len: 92 Check: 0]
+[Name: Mirocapri			Len: 92 Check: 0]
+[Name: Globitermes			Len: 92 Check: 0]
+[Name: Nasutitermes			Len: 92 Check: 0]
+[Name: Mastotermes_darwiniensis			Len: 92 Check: 0]
+[Name: Macrotermes_natalensis			Len: 92 Check: 0]
+[Name: Macrotermes_subhyalinus			Len: 92 Check: 0]
+[Name: Neotermes_castaneus			Len: 92 Check: 0]
+[Name: Nasutitermes_takasagoensis			Len: 92 Check: 0]
+[Name: Promirotermes			Len: 92 Check: 0]
+[Name: Prorhinotermes_inopiinatus			Len: 92 Check: 0]
+[Name: Reticulitermes			Len: 92 Check: 0]
+[Name: Blaberus_atropos			Len: 92 Check: 0]
+[Name: Cryptotermes_domesticus			Len: 92 Check: 0]
+[Name: Cryptocercus_wrighti			Len: 92 Check: 0]
+[Name: Eupolyphaga_sinensis			Len: 92 Check: 0]
+[Name: Periplaneta_americana			Len: 92 Check: 0]
+[Name: Prorhinotermes_simplex			Len: 92 Check: 0]
+[Name: Zootermopsis			Len: 92 Check: 0]
+
+MATRIX
+Blattella_germanica            MLPLFAFLRM YAPYITLPVA AVVGVIGYNL ESLISDKYTP YQKSIEEKRQ
+Blatta_orientalis              MFPILTFLRT YAPYITLPVA AIVGIVGYNL ESILSDKYTP YQKSIEEKRE
+Cryptocercus_pudacoensis       MLPFFTFLRS YAPYVTLPVA AVIGIIGYKL EGILSDKYTP YEKSIEEKRG
+Cryptotermes_brevis            MLPILTFLRT YAPYVTLPVA AVVGFIGYNL EAILSDKYTP YQKSIEEKRE
+Coptotermes_formosanus         MLPIFAFLRT YAPYVTLPVA AVVGIIGYNL EGFISDRYTP YQKSVEEKRE
+Cryptocercus_meridianus        ---------- --VFITLPIA AVVGFIGYNL ETLISDKYTP YSKSIQENRA
+Pericapri                      MLPIFAFLRT YAPYVTLPVA AVVGIIGYNL EGFMSDKYTP YQKSVEEKRE
+Indotermes                     MLPIFAFLRT YAPYVTLPVA AVVGIIGYNL EGFMSDRYTP YQKSVEEKRE
+Mirocapri                      MLPILAFLRT YAPYVTLPVA AVVGIIGYNL EGFMSDKYTP YQKSVEEKRE
+Globitermes                    MLPIFAFLRT YAPYVTLPVA AVVGIIGYNL EGFISDKYTP YQKSVEEKRE
+Nasutitermes                   MLPIFAFLRT YAPYVTLPVA AVVGIIGYNL EGFMSDKYTP YQKSVEEKRE
+Mastotermes_darwiniensis       NAAIFTFLRT YAPYITLPVA AVVGFIGYNL ESILSDKYTP YQKSIEEKRK
+Macrotermes_natalensis         MLPIFAFLRT YAPYVTLPVA AVVGIIGYNL EGFMSDKYTP YQKSVEEKRE
+Macrotermes_subhyalinus        MLPIFAFLRT YAPYVTLPVA AVVGIIGYSL EGFMSDKYTP YQKSVEEKRE
+Neotermes_castaneus            MLPIFTFLRT YAPYVTLPIA AVVGFIGYNL EGILSDKYTP YQKSIEERRE
+Nasutitermes_takasagoensis     MLPIFAFLRT YAPYVTLPVA AVVGIIGYNL EGFMSDKYTP YQKSVEEKRE
+Promirotermes                  MLPIFAFLRT YAPYVTLPVA AVVGIIGYNL EGFMSDKYTP YQKSVEEKRE
+Prorhinotermes_inopiinatus     MLPIFAFLRT YAPYVTLPVA AVVGIIGYNL EGFISDKYTP YQKSIEEKRE
+Reticulitermes                 MLPIFAFLRT YAPYVTLPVA ALVGIIGYNL EGFMSDKYTP YQKSVEEKRE
+Blaberus_atropos               MLPLFAFLRM YAPYITLPIA AVVGVIGYNI ESLVSDKYTP YQKSIDEKRQ
+Cryptotermes_domesticus        MLPIFTFLRT YAPYVTLPVA AVVGFIGYNF EAIVSDKYTP YQKSIEERRE
+Cryptocercus_wrighti           MLPFFTFLRS YAPYVTLPVA AVIGLIGYNL EGILSDKYTP YEKSIEEKRG
+Eupolyphaga_sinensis           MLPIFTFIRT YAPYITLPIA AVVGIIGYNL ETIMSDRYTP YQKSIEEKRE
+Periplaneta_americana          MFPILTFLRT YAPYVTLPVA AIVGLVGYNL ESILSDKYTP YQKSIEEKRE
+Prorhinotermes_simplex         MLPIFAFLRT YAPYVTLPVA AVVGIIGYNL EGFISDKYTP YQKSIEEKRE
+Zootermopsis                   MLPVFAFLRR YVPFITLPFA AVVGIIGYNL EGMLSDKYTP YQKSIEGKRE
+
+Blattella_germanica            ERLIEENLSK DVTDVGSLKE RKFVPRSVLE RNLSPSLKGN NE
+Blatta_orientalis              DRLIEESLTK DVTKVDSLKE RKFVPKSVFE RNVSPSLQRK ET
+Cryptocercus_pudacoensis       DRIMEENVTK DVTKVDSLKE RKFVPRSVFE RNISPSLQNN ET
+Cryptotermes_brevis            DRLMEENLSK DVTKVDSLKE KKFVPRSVFE KNVSPSLQSN ET
+Coptotermes_formosanus         DRLMEEYLTK DITKVDSLKE RKFVPRSVFE KNVSPSLDTN ET
+Cryptocercus_meridianus        ERLTNDEFLV NADHVEKLRL KE----NVLE RNLPPSLQKK I-
+Pericapri                      DRLVEEYLTK DITKVDSLKE RKFVPHSVFE KNVSPSLGSN ES
+Indotermes                     DRLVEEYLTK DITKVDSLKE RKFVPRSVFE KNVSPSLDSN ET
+Mirocapri                      DRLVEEYLTK DITNVDTLKE RKFVPRSVFE KNVSPSLDSN ET
+Globitermes                    DRLVEEYLTK DITKVDSLKE RKFVPRSVFE KNVSPSLDSN ET
+Nasutitermes                   DRLVEEYLTK DITKVDSLKE RKFVPRSVFE KNVSPSLGSK ET
+Mastotermes_darwiniensis       DRLMEENLTK DVTEIDSLKE RKFVPRSVFE RNVSPSLQIN ET
+Macrotermes_natalensis         DRLMEEYLNK DITKVDSLKE RKFVPRSVFE KNISPSLDSN ET
+Macrotermes_subhyalinus        DRLMEEYLNK DITKVDSLKE RKFVPRSVFE KNISPSLDSN ET
+Neotermes_castaneus            DRLMEENLSK DVTKVDSLKE KKFVPHSVFE KNISPSLQIN ET
+Nasutitermes_takasagoensis     DRLVEEYLTK DITKVDSLKE RKFVPRSVFE KNVSPSLGSK ET
+Promirotermes                  DRLVEEYLTK DITKVDSLKE RKFVPRSVFE KNVSPSLGSN ET
+Prorhinotermes_inopiinatus     DRLMEEYLTK DITKVESLKE RKFVPHSVFE KNVSPSLDTN ET
+Reticulitermes                 DRLMEEYLTK DITKVDSLKE RKFVPRSVFE KNVSPSLDTN ET
+Blaberus_atropos               ERLLEENLKK DVTSVDTLKE RKFVPRSVLE RNLSPSLREN IE
+Cryptotermes_domesticus        DRLMEENLSK DVTKVDSLKE KKFVPRSVFE KNVSPSLQSS ET
+Cryptocercus_wrighti           DRLMEENVTK DVTQVDSLKE RKFVPRSVFE RNISPSLQNN ET
+Eupolyphaga_sinensis           DRILEENLTK DLTQVDSLKE RKFVPRSVFE RNVSPSLLKE NI
+Periplaneta_americana          DRLIEESLTK DVTKVDSLKE RKFVPKSVFE RNVSPSLQKK ET
+Prorhinotermes_simplex         DRLMEEYLTK DITKVESLKE RKFVPHSVFE KNVSPSLDTN ET
+Zootermopsis                   DRLLEESLAK DVTKVDSLKE KKFVPRSVFE KNVSPSLQNT ET
+
+
+;
+END;

@@ -1,0 +1,79 @@
+#NEXUS
+
+
+BEGIN DATA;
+ DIMENSIONS NTAX=22 NCHAR=97;
+ FORMAT DATATYPE=PROTEIN INTERLEAVE=yes GAP=-;
+[Name: Blattella_germanica			Len: 97 Check: 0]
+[Name: Blatta_orientalis			Len: 97 Check: 0]
+[Name: Cryptocercus_pudacoensis			Len: 97 Check: 0]
+[Name: Cryptotermes_brevis			Len: 97 Check: 0]
+[Name: Coptotermes_formosanus			Len: 97 Check: 0]
+[Name: Cryptocercus_meridianus			Len: 97 Check: 0]
+[Name: Kalotermes_flavicollis			Len: 97 Check: 0]
+[Name: Pericapri			Len: 97 Check: 0]
+[Name: Nasutitermes			Len: 97 Check: 0]
+[Name: Mastotermes_darwiniensis			Len: 97 Check: 0]
+[Name: Macrotermes_natalensis			Len: 97 Check: 0]
+[Name: Neotermes_castaneus			Len: 97 Check: 0]
+[Name: Nasutitermes_takasagoensis			Len: 97 Check: 0]
+[Name: Prorhinotermes_inopiinatus			Len: 97 Check: 0]
+[Name: Reticulitermes			Len: 97 Check: 0]
+[Name: Blaberus_atropos			Len: 97 Check: 0]
+[Name: Cryptotermes_domesticus			Len: 97 Check: 0]
+[Name: Cryptocercus_wrighti			Len: 97 Check: 0]
+[Name: Eupolyphaga_sinensis			Len: 97 Check: 0]
+[Name: Odontotermes_formosanus			Len: 97 Check: 0]
+[Name: Prorhinotermes_simplex			Len: 97 Check: 0]
+[Name: Zootermopsis			Len: 97 Check: 0]
+
+MATRIX
+Blattella_germanica            ---------- ---------- --------MI RRSPTRIELK LDDIQEYESM
+Blatta_orientalis              ---------- ---------- ------ILMI RRSPTRIELK LDDIQEYESM
+Cryptocercus_pudacoensis       ---------- ---------- --ITFSIKMI RRSPTRIELK LDDIQEYESM
+Cryptotermes_brevis            ---------- ---------- --------MI RRSPTRIELK LDDIQEYESM
+Coptotermes_formosanus         ---------- ---------- --------MI RRSPTRIELK LDDIQEYDAM
+Cryptocercus_meridianus        ---------- ---------- --------MI RRSPTRIELK LDDIQEYESM
+Kalotermes_flavicollis         ---------- ---------- -----MITMI RRSPTRIELK LDDIQEYESM
+Pericapri                      ---------- ---------- --------MI RRSPTRIELK LDDIQEYDTM
+Nasutitermes                   ---------- ---------- --------MI RRSPTRIELK LDDIQEYDAM
+Mastotermes_darwiniensis       ---------- KHYTYFRDNL LSITFSVTMI RRSPTRIELK LDDVQEYESM
+Macrotermes_natalensis         ---------- ---------- --------MI RRSPTRIDLK LDDIQEYDAM
+Neotermes_castaneus            FTRCPIARGQ KYYTYFRDNL PGITFSITMI RRSPTRIELK LDDIQEYESV
+Nasutitermes_takasagoensis     ---------- ---------- --------MI RRSPTRIELK LDDIQEYDAM
+Prorhinotermes_inopiinatus     LSRRLVSSPT KLYTYFRDNL PSITFFIAMI RRSPTRIELK LDDIQEYDSI
+Reticulitermes                 ---------- ---------- --------MI RRSPTRIELK LDDIQEYEAM
+Blaberus_atropos               ---------- ---------- --------MI RRSPTRIELK LDDIQEYESM
+Cryptotermes_domesticus        ---------- ---------- --------MI RRSPTRIELK LDDIQEYESM
+Cryptocercus_wrighti           LRRCMQSSGR KHYTYFRDNL PSITFSIKMI RRSPTRIELK LDDIQEYESM
+Eupolyphaga_sinensis           ---------- ---------- --------MI RRSPTRIELK LDDIQEYESI
+Odontotermes_formosanus        ASQDASSLAK GNFIH----- ---TFEITMI RRSPTRIDLK LDDIQEYDAM
+Prorhinotermes_simplex         LSRRLVSSPT KLYTYFRDNL PSITFFIAMI RRSPTRIELK LDDIQEYDSM
+Zootermopsis                   PRRYLKDIGR KYYTYFPDNL PNITFSVEMI RRSPTRIELK LDDIQEYESM
+
+Blattella_germanica            RREQESRKEQ QAESHASSVE SWAPGVTKSK QEIIHERIGY VPQPRMT
+Blatta_orientalis              RREQESRKEQ QNESHTSSVE PWTPAVPKTK QEIIHERIGY VPQPRMT
+Cryptocercus_pudacoensis       RREQESRKEQ QAESHSSSVE PWVPGVTKTK QEIIHERIGY VPQPRMT
+Cryptotermes_brevis            RREQESRKEQ QSENHSSSVE PWPP---KTK QEIIHERIGY VPQPRFT
+Coptotermes_formosanus         RREQESRKEQ QTENRNST-E PWAPVVPKTK QEIIHERIGY VPQPRMT
+Cryptocercus_meridianus        RREQESRKEQ QAESHGSSVE PWVPGVTKTK QEIIHERIGY VPQPRMT
+Kalotermes_flavicollis         RREQEIRKER QSENHSSSVE PWAP---KTK QEIIHERIGY VPQPRMT
+Pericapri                      RREQESRKEQ QTENRNST-E PWGPTVTKTK QEIIHERIGY VPQPRMT
+Nasutitermes                   RREQESRKEQ QTENRSST-E PWGPTVTKTK QEIIHERIGY VPQPRMT
+Mastotermes_darwiniensis       KREQESRKEQ QAESHDSSVE PWAPGVPKTK QEIIHERIGY VPQPRMT
+Macrotermes_natalensis         RREQESRKEQ QTENRSSA-E PWAPAVPKTK QEIIHERIGY VPQPRMT
+Neotermes_castaneus            RREQESRKEQ QSENHSSSVE PWPP---KTK QEIIHERIGY VPQPRMT
+Nasutitermes_takasagoensis     RREQESRKEQ QTENRSST-E PWGPTVTKTK QEIIHERIGY VPQPRMT
+Prorhinotermes_inopiinatus     RREQESRNEQ PTENRSSA-E PWAPGVSKTK QEIIHERIGY VPQPRMT
+Reticulitermes                 RREQESRKEQ QTENRSST-E PWAPGVPKTK QEIIHERIGY VPQPRMT
+Blaberus_atropos               RREQESRKEQ QAESHGAVVE SWAPGVTKTK QEIIHERIGY VPQPRMT
+Cryptotermes_domesticus        RREQESRKEQ QSENHSSSVE PWPP---KTK QEIIHERIGY VPQPRIT
+Cryptocercus_wrighti           RREQESRKEQ QAESHSSSVE PWVPGVTKTK QEIIHERIGY VPQPRMT
+Eupolyphaga_sinensis           KR-IETQKDQ QAENHGSSVE SWAPSVPKTK QEIIHERIGY VPQPRMT
+Odontotermes_formosanus        RREQESRKEQ QTENRSSA-E PWAPAVPKTK QEIIHERIGY VPQPRMT
+Prorhinotermes_simplex         RREQESRNEQ QTENRSSA-E PWAPGVSKTK QEIIHERIGY VPQPRMT
+Zootermopsis                   RREQESRKEQ HTPSHSSSAE TWASGIPKTK QELIHERIGY APQPRMT
+
+
+;
+END;

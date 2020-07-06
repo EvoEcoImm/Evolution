@@ -1,0 +1,88 @@
+#NEXUS
+
+
+BEGIN DATA;
+ DIMENSIONS NTAX=25 NCHAR=79;
+ FORMAT DATATYPE=PROTEIN INTERLEAVE=yes GAP=-;
+[Name: Blattella_germanica			Len: 79 Check: 0]
+[Name: Blatta_orientalis			Len: 79 Check: 0]
+[Name: Cryptocercus_pudacoensis			Len: 79 Check: 0]
+[Name: Cryptotermes_brevis			Len: 79 Check: 0]
+[Name: Coptotermes_formosanus			Len: 79 Check: 0]
+[Name: Cryptocercus_meridianus			Len: 79 Check: 0]
+[Name: Hodotermopsis_sjostedti			Len: 79 Check: 0]
+[Name: Pericapri			Len: 79 Check: 0]
+[Name: Indotermes			Len: 79 Check: 0]
+[Name: Mirocapri			Len: 79 Check: 0]
+[Name: Mastotermes_darwiniensis			Len: 79 Check: 0]
+[Name: Macrotermes_natalensis			Len: 79 Check: 0]
+[Name: Macrotermes_subhyalinus			Len: 79 Check: 0]
+[Name: Neotermes_castaneus			Len: 79 Check: 0]
+[Name: Promirotermes			Len: 79 Check: 0]
+[Name: Prorhinotermes_inopiinatus			Len: 79 Check: 0]
+[Name: Reticulitermes			Len: 79 Check: 0]
+[Name: Reticulitermes_speratus			Len: 79 Check: 0]
+[Name: Cryptotermes_domesticus			Len: 79 Check: 0]
+[Name: Cryptocercus_wrighti			Len: 79 Check: 0]
+[Name: Eupolyphaga_sinensis			Len: 79 Check: 0]
+[Name: Odontotermes_formosanus			Len: 79 Check: 0]
+[Name: Periplaneta_americana			Len: 79 Check: 0]
+[Name: Prorhinotermes_simplex			Len: 79 Check: 0]
+[Name: Zootermopsis			Len: 79 Check: 0]
+
+MATRIX
+Blattella_germanica            -MPVPVGGYQ TGPSCWDRMK MGFTIGFCVG LASGALFGGF TALRYGLRGR
+Blatta_orientalis              -MPVPVGSYQ TGPSCWDRMK MGFTIGFCVG MASGALFGGF SALRYGLRGR
+Cryptocercus_pudacoensis       TMPVPVGSHQ TGPSCWDRMK MGFTIGFCVG MASGALFGGF SALRYGLRGR
+Cryptotermes_brevis            -MPVPVGSYQ TGPSCWDRMK MGFTIGFCVG IASGALFGGF SALRYGLRGR
+Coptotermes_formosanus         -MPVPAGSYQ TGYSCFDRMK KGFTIGFCVG LASGALFGGF SALRYGLRGR
+Cryptocercus_meridianus        -MPVPVGSHQ TGPSCWDRMK MGFTIGFCVG MASGALFGGF SALRYGLRGR
+Hodotermopsis_sjostedti        -MPVPVGSYQ SGPSCWDRMK MGFTIGFCVG MASGALFGGF SALRYGLRGR
+Pericapri                      -MPVPAGSYQ TGYSCFDRMK KGFTIGFCVG LASGALFGGF SALRYGLRGR
+Indotermes                     -MPVPAGSYQ TGYSCFDRMK KGFTIGFCVG LASGALFGGF SALRYGLRGR
+Mirocapri                      IMPVPAGSYQ TGYSCFDRMK KGFTIGFCVG LASGALFGGF SAIRYGLRGR
+Mastotermes_darwiniensis       -MPVPVGSYQ TGPSCWDRIK MGFTIGFCVG MASGALFGGF SALRYGLRGR
+Macrotermes_natalensis         IMPVPAGSYQ TGYSCFDRMK KGFTIGFCVG LASGALFGGF SALRYGLRGR
+Macrotermes_subhyalinus        -MPVPAGSYQ TGYSCFDRMK KGFTIGFCVG LASGALFGGF SALRYGLRGR
+Neotermes_castaneus            -MPVPVGSYQ TGPSCWDRMK MGFTIGFCVG MASGALFGGF SALRYGLRGR
+Promirotermes                  -MPVPAGSYQ TGYSCFDRMK KGFTIGFCVG LASGALFGGF SALRYGLRGR
+Prorhinotermes_inopiinatus     -MPVPAGSYQ TGYSCFDRMK KGFTIGFCVG LASGALFGGF SALRYGLRGR
+Reticulitermes                 -MPVPAGSYQ TGYSCFDRMK KGFTIGFCVG LASGALFGGF SALRYGLRGR
+Reticulitermes_speratus        -MPVPAGSYQ TGYSCFDRMK KGFTIGFCVG LASGALFGGF SALRYGLRGR
+Cryptotermes_domesticus        -MPVPVGSYQ TGPSCWDRMK MGFTIGFCVG IASGALFGGF SALRYGLRGR
+Cryptocercus_wrighti           -MPIPVGSHQ TGPSCWDRMK MGFTIGFCVG MASGALFGGF SALRYGLRGR
+Eupolyphaga_sinensis           -MPVPVGAYG SGPSCWDRMK MGFTIGFCVG MASGALFGGF SALRYGMRGR
+Odontotermes_formosanus        -MPVPAGSYQ TGYSCFDRMK KGFTIGFCVG LASGALFGGF SALRYGLRGR
+Periplaneta_americana          -MPVPVGSYQ SGPSCWDRMK MGFTIGFCVG MASGALFGGF SALRYGLRGR
+Prorhinotermes_simplex         -MPVPAGSYQ TGYSCFDRMK KGFTIGFCVG LASGALFGGF TALRYGLRGR
+Zootermopsis                   -MPVPVGSYH SGPSCWDRMK MGFTIGFCVG MASGALFGGF SALRYGLRGR
+
+Blattella_germanica            ELVNSVGKTM IQGGGTFGTF MAIGTGIRC
+Blatta_orientalis              ELANSVGKMM LQGGGTFGTF MAIGTGIRC
+Cryptocercus_pudacoensis       ELVNSVGKMM IQGGGTFGTF MAIGTGIRC
+Cryptotermes_brevis            ELVNSVGKMM LQGGGTFGTF MAIGTGIRC
+Coptotermes_formosanus         ELVNTMGKTM LQGGGTFGTF MAIGTGIRC
+Cryptocercus_meridianus        ELVNSVGKMM IQGGGTFGTF MAIGTGIRC
+Hodotermopsis_sjostedti        ELVNSVGKMM LQGGGTFGTF MAIGTGIRC
+Pericapri                      ELVNTMGKTM LQGGGTFGTF MAIGTGIRC
+Indotermes                     ELVNTMGKTM LQGGGTFGTF MAIGTGIRC
+Mirocapri                      ELVNTMGKTM LQGGGTFGTF MAVGTGIRC
+Mastotermes_darwiniensis       ELVNSVGKMM IQGGGTFGTF MAIGTGIRC
+Macrotermes_natalensis         ELVNTMGKTM LQGGGTFGTF MAIGTGIRC
+Macrotermes_subhyalinus        ELVNTMGKTM LQGGGTFGTF MAIGTGIRC
+Neotermes_castaneus            ELVNSVGKMM LQGGGTFGTF MAIGTGIRC
+Promirotermes                  ELVNTMGKTM LQGGGTFGTF MAIGTGIRC
+Prorhinotermes_inopiinatus     ELVNTMGKTM LQGGGTFGTF MAIGTGIRC
+Reticulitermes                 ELVNTMGKTM LQGGGTFGTF MAIGTGIRC
+Reticulitermes_speratus        ELVNTMGKTM LQGGGTFGTF MAIGTGIRC
+Cryptotermes_domesticus        ELVNSVGKMM LQGGGTFGTF MAIGTGIRC
+Cryptocercus_wrighti           ELVNSVGKMM IQGGGTFGTF MAIGTGIRC
+Eupolyphaga_sinensis           ELVNSVGKMM LQGGGTFGTF MAIGTGIRC
+Odontotermes_formosanus        ELVNTMGKTM LQGGGTFGTF MAIGTGIRC
+Periplaneta_americana          ELANSVGKMM LQGGGTFGTF MAIGTGIRC
+Prorhinotermes_simplex         ELVNTMGKTM LQGGGTFGTF MAIGTGIRC
+Zootermopsis                   ELVNSVGKMM LQGGGTFGTF MAIGTGIRC
+
+
+;
+END;

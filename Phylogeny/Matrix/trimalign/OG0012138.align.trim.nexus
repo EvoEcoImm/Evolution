@@ -1,0 +1,73 @@
+#NEXUS
+
+
+BEGIN DATA;
+ DIMENSIONS NTAX=20 NCHAR=91;
+ FORMAT DATATYPE=PROTEIN INTERLEAVE=yes GAP=-;
+[Name: Blattella_germanica			Len: 91 Check: 0]
+[Name: Blatta_orientalis			Len: 91 Check: 0]
+[Name: Cryptocercus_pudacoensis			Len: 91 Check: 0]
+[Name: Cryptotermes_brevis			Len: 91 Check: 0]
+[Name: Coptotermes_formosanus			Len: 91 Check: 0]
+[Name: Hodotermopsis_sjostedti			Len: 91 Check: 0]
+[Name: Kalotermes_flavicollis			Len: 91 Check: 0]
+[Name: Pericapri			Len: 91 Check: 0]
+[Name: Mastotermes_darwiniensis			Len: 91 Check: 0]
+[Name: Macrotermes_natalensis			Len: 91 Check: 0]
+[Name: Neotermes_castaneus			Len: 91 Check: 0]
+[Name: Nasutitermes_takasagoensis			Len: 91 Check: 0]
+[Name: Reticulitermes_speratus			Len: 91 Check: 0]
+[Name: Blaberus_atropos			Len: 91 Check: 0]
+[Name: Cryptotermes_domesticus			Len: 91 Check: 0]
+[Name: Cryptocercus_wrighti			Len: 91 Check: 0]
+[Name: Eupolyphaga_sinensis			Len: 91 Check: 0]
+[Name: Odontotermes_formosanus			Len: 91 Check: 0]
+[Name: Prorhinotermes_simplex			Len: 91 Check: 0]
+[Name: Zootermopsis			Len: 91 Check: 0]
+
+MATRIX
+Blattella_germanica            ETEFNSEFVL RIIPKLDWEV LWNAADSIGH SGDLPQTLCE DYENDVDFLK
+Blatta_orientalis              ETEFNSEFVL RIIPKLDWET LWNAADSIGH SGDLPQTLSD DYENDIEFLK
+Cryptocercus_pudacoensis       ---------- ---------- ----ADSIGH SVDLPQNLGD DYENDVEFLK
+Cryptotermes_brevis            ETEFNSEFVL RIIPKLDWDT LWNAADSIGH SGDLPRTLCD DYENDVEFLK
+Coptotermes_formosanus         ETEFNSEFVL RIIPKLDWDT LWNAADSIGH SGDLPRTLSD DYENDVEFLK
+Hodotermopsis_sjostedti        HTTRNSEFVS RIIPKLDWDT LWNAADSIGH AGDLPRTLCD DYENDVEFLK
+Kalotermes_flavicollis         ETEFNSEFVL RIIPKLDWDT LWNAADSIGH SGDLPRTLCD DYENDVEFLK
+Pericapri                      ETEFNSEFVL RIIPKLDWDT LWNAAESIGH SGDLPRSLGD DYENDIEFLK
+Mastotermes_darwiniensis       ETEFNSEFVL RIIPKLDWDT LWTAADSIGH SGDLPRTLSD DYENDVEFLK
+Macrotermes_natalensis         ETEFNSEFVL RIIPKLDWDT LWNAADSIGH SGDLPRTLCD DYENDTEFLK
+Neotermes_castaneus            ETEFNSEFVL RIIPKLDWDT LWTAADSIGH SGDLPRTLCD DYENDVEFLK
+Nasutitermes_takasagoensis     ETEFNSEFVL RIIPKLDWDT LWNAADSIGH SGDLPRTLGD DYENDTEFLK
+Reticulitermes_speratus        ETEFNSEFVL RIIPKLDWDT LWNAADSIGH SGDLPRTLSD DYENDVEFLK
+Blaberus_atropos               ---------- ---PKLDWET LWNAADSIGH SGDLPQTLGE DYENDIEFLK
+Cryptotermes_domesticus        ETEFNSEFVL RIIPKLDWDT LWNAADSIGH SGDLPRTLCD DYENDVEFLK
+Cryptocercus_wrighti           ETEFNSEFVS RIIPKLDWGT LWNAADSIGH SGDLPQSLGD DYENDVEFLK
+Eupolyphaga_sinensis           ETEFNSEFVQ RIIPKLDWET LWNAADSIGH SGDLPQTLKE DYENDVEFLK
+Odontotermes_formosanus        ETEFNSEFVL RIIPKLDWDT LWNAADSIGH SGDLPRTLCD DYENDTEFLK
+Prorhinotermes_simplex         ETEFNSEFVL RIIPKLDWDT LWNAADSIGH SGDLPRTLCD DYENDVEFLK
+Zootermopsis                   ETEFNSEFVS RIIPKLDWDT LWNAADSIGH AGDLPRAVCD DYENDVEFLK
+
+Blattella_germanica            KVHHVLLEVE VINGELVCPE SGRKFPINKG IPNMLLNEDE L
+Blatta_orientalis              KVHHVLLEVE VINGELVCPE SGRKFPINKG IPNMLLNEDE L
+Cryptocercus_pudacoensis       KVHHVLLEVE VINGELVCPE SGRKFPINKG IPNMLLNEDE L
+Cryptotermes_brevis            KAHHVLLEVE VINGELICPE SGRKFAINKG IPNMLLNEDE L
+Coptotermes_formosanus         KVHHVLLEVE VINGELVCPE SGRKFSISKG IPNMLLNEDE L
+Hodotermopsis_sjostedti        KVHHVLLEVE VIDGELVCPE SGRKFSINKG IPNMLLNEDE L
+Kalotermes_flavicollis         KAHHVLLEVE VINGELVCPE SGRKFAINKG IPNMLLNEDE L
+Pericapri                      KVHHVLLEVE VISGELVCPE SGRKFSISKG IPNMLLNEDE L
+Mastotermes_darwiniensis       KVHHVLLEVE VINGELVCPE SGRKFSISKG IPNMLLNEDE L
+Macrotermes_natalensis         KVHHVLLEVE VISGELVCPE SGRKFSISKG IPNMLLNEDE L
+Neotermes_castaneus            KAHHVLLEVE VINGELVCPE TGRKFAINKG IPNMLLNEDE L
+Nasutitermes_takasagoensis     KVHHVLLEVE VISGELVCPE SGRKFSISKG IPNMLLNEDE L
+Reticulitermes_speratus        KVHHVLLEVE VINGELVCPE SGRKFSISKG IPNMLLNEDE L
+Blaberus_atropos               KVHHVLLEVE IVNGELVCPE SGRKFPINKG IPNMLLNEDE L
+Cryptotermes_domesticus        KAHHVLLEVE VINGELVCPE SGRKFAINKG IPNMLLNEDE L
+Cryptocercus_wrighti           KAHHVLLEVE VINGELVCPE TGRKFPINKG IPNMLLNEDE L
+Eupolyphaga_sinensis           KVHHVLLEVE VINGELVCPE SGRKFPINKG IPNMLLNEDE L
+Odontotermes_formosanus        KVHHVLLEV- ---------- ---------- ---------- -
+Prorhinotermes_simplex         KVHHVLLEVE VINGELVCPE SGRRFSISKG IPNMLLNEDE L
+Zootermopsis                   KVHHVLVEVE VIEGELVCPE SGRKFSINKG IPNMLLNEDE L
+
+
+;
+END;

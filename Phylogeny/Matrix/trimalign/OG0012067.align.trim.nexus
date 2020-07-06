@@ -1,0 +1,115 @@
+#NEXUS
+
+
+BEGIN DATA;
+ DIMENSIONS NTAX=20 NCHAR=152;
+ FORMAT DATATYPE=PROTEIN INTERLEAVE=yes GAP=-;
+[Name: Blattella_germanica			Len: 152 Check: 0]
+[Name: Cryptotermes_brevis			Len: 152 Check: 0]
+[Name: Coptotermes_formosanus			Len: 152 Check: 0]
+[Name: Cryptocercus_meridianus			Len: 152 Check: 0]
+[Name: Kalotermes_flavicollis			Len: 152 Check: 0]
+[Name: Pericapri			Len: 152 Check: 0]
+[Name: Indotermes			Len: 152 Check: 0]
+[Name: Mirocapri			Len: 152 Check: 0]
+[Name: Globitermes			Len: 152 Check: 0]
+[Name: Nasutitermes			Len: 152 Check: 0]
+[Name: Mastotermes_darwiniensis			Len: 152 Check: 0]
+[Name: Neotermes_castaneus			Len: 152 Check: 0]
+[Name: Promirotermes			Len: 152 Check: 0]
+[Name: Prorhinotermes_inopiinatus			Len: 152 Check: 0]
+[Name: Reticulitermes_speratus			Len: 152 Check: 0]
+[Name: Cryptotermes_domesticus			Len: 152 Check: 0]
+[Name: Odontotermes_formosanus			Len: 152 Check: 0]
+[Name: Periplaneta_americana			Len: 152 Check: 0]
+[Name: Prorhinotermes_simplex			Len: 152 Check: 0]
+[Name: Zootermopsis			Len: 152 Check: 0]
+
+MATRIX
+Blattella_germanica            MGHRPSQHHP CTILHPTL-- --ASFLWLLV LALV----TL FSLA--GTTD
+Cryptotermes_brevis            MGQQYPHHQH CTALRSTLPI SNTSCLWLLV LVFVICSGTL LSVAEGKTLT
+Coptotermes_formosanus         ---------- ---------- ---------- ---------- FTVAEGKTLK
+Cryptocercus_meridianus        --QWHPYHQH CTVLHSTLPF SNTSYLWLLI LVFVTCTGTV FTVAEGKSLT
+Kalotermes_flavicollis         MGQQYPHHQH CTALRSALPF SNTSYLWLLV LVFVTCSGAL FSVAEGKPLT
+Pericapri                      ---------- -------LPV SNTTSVWLLA LVFVTCSGTL FTAVEGKSLT
+Indotermes                     MGQQFPHHEL CTMLHSLLPF SNPTAMWLLA LVFITCSGTL CRAADAKTST
+Mirocapri                      ---------- ---------- ---------- ---------- --------LT
+Globitermes                    MGQQFPHHEH CTVLHSLLPV SNTTSVWLLA FVFVTCSGTL FTAAEGKSLT
+Nasutitermes                   MGQQFPHHEH CTVLHSLLPV SNTTSMWLLA LVFVTCSGTL FTTADGKSLT
+Mastotermes_darwiniensis       ---------- ---------- ---------- ---------- ----------
+Neotermes_castaneus            ---------- ---------- ---------- ---------- ----------
+Promirotermes                  MGQQFPHHEH CTVLHCLLPV SSTTSVWLFA LVFVTCSGTL FTAAEGKSLT
+Prorhinotermes_inopiinatus     MVQQFPHHQH CTLRHSTLPV SHIAYLWILA LLCVTCSATL FTVAEGKTLT
+Reticulitermes_speratus        MGQQFPLHQH CTVLHSTLPV SNATYLWLLA LFFVTCSGTL FTVAEGKTLT
+Cryptotermes_domesticus        ---------- ---------- ---------- -MLV------ ------RRVS
+Odontotermes_formosanus        MGQHFPHHEH CTMLHSRLPV SSTTSVWLLA LVFVTCFGTM FTAAEGKSLT
+Periplaneta_americana          MHH------- ---------- --------VA LVL----GAL FAVATPTQVL
+Prorhinotermes_simplex         MVQQFPHHQH CTLRHSTLPV SHIAYLWILA LLCVTCSATL FTVAEGKTLT
+Zootermopsis                   MGQANTPHTP CALLHSSLPF RNTSYLWLFA LVFVSCSGTF LASAEGNP--
+
+Blattella_germanica            AAPSSVSQHQ IYKRSVTEAA DYPDYQSGVR YDEYPVVVPK RTALLLDRIM
+Cryptotermes_brevis            DVTSSVEHHQ VIKRSATDAP DYGEYQPGVR YDEYPVVVPK RTALLLDRIM
+Coptotermes_formosanus         DVTSSVEHQQ VFKRSAAEAS DYPDYQAGVR YDEYPVIVPK RTALLLDRIM
+Cryptocercus_meridianus        DVTSSVEHHQ VLKRSATEAS DYPDYQAGVK YDEYPVVVPK RTALLLDKIM
+Kalotermes_flavicollis         DVTSSVEHHQ VIKRSATDAS DYPEYQSGVR SDEYPVVVPK RTALLLDRIM
+Pericapri                      DVTSPVERQQ VFKRSAIEAS DYPDFQAGVR YDEYPVIVPK RTALLLDRIM
+Indotermes                     DVTSSVEHRQ VFKRSATEAS DYPEFQAGVR YDEYPVIVPK RTALLLDRIM
+Mirocapri                      EVTSPFEQQR VFKRSAIEAS DYPDYQAGVR YDEYPVIVPK RTALLLDRIM
+Globitermes                    EVTSPVEQQQ VFKRSATEAS DYPDYQAGVR YDEYPVIVPK RTALLLDRIM
+Nasutitermes                   DVTSPVEQQQ VFKRSATEAS DYPDYQAGVR YDEYPVIVPK RTALLLDRIM
+Mastotermes_darwiniensis       ---------- -------EGS GYADYQSGVR YDEYPVVVPK RTALLLDRIM
+Neotermes_castaneus            ---------- ---------- ---------- -------VPK RTALLLDRIM
+Promirotermes                  DVTSPVEQQQ VFKRSATEAS DYPDYQAGVR YDEYPVIVPK RTALLLDRIM
+Prorhinotermes_inopiinatus     DVASSAEHQQ VFKRSATEAS GYPDYQAGVR YDEYPVIVPK RTALLLDRIM
+Reticulitermes_speratus        DVTSSVENQQ VFKRSATEAS DYPDYQAGVR YDEYPVIVPK RTALLLDRIM
+Cryptotermes_domesticus        NVDSRTTNPA VRKVTHVAPT TAKKVKYGGR VLLYYFLFLR MIETFINNFL
+Odontotermes_formosanus        DVTSAVEHQQ VTKRSATEPS DYPDYQAGVR YDEYPVIVPK RTALLLDRIM
+Periplaneta_americana          DA-------- --------AP DYPDDGQGVH YDEYPVVVPK RTALLLDRIM
+Prorhinotermes_simplex         DVASSAEHQQ VFKRSATEAS GYPDYQAGVR YDEYPVIVPK RTALLLDRIM
+Zootermopsis                   -VTSPVE-QR VFKRSPSEVA DYPDYQAGVR YDEYPVVVPK RTALLLDKIM
+
+Blattella_germanica            VALQKAVEEE KGGRNYAPDL AESKMDLQRR GQTKGRVYWR CYFNA-----
+Cryptotermes_brevis            VALQKAVEDE KGGRNFAPGP VENKMDLQRR GQEKGRVYWR CYFNAVTCFK
+Coptotermes_formosanus         TALQKAVEDE KGGPNFAPDP AENKMGLQRR GQEKGRVYWR CYFNAVTCFK
+Cryptocercus_meridianus        VALQKAVEDE KGSSNLAPDF AENKMDLQRR GQQKGRVYWR CYFNAVTCFK
+Kalotermes_flavicollis         VALQKAVEDE KGGRNFAPDT VENKMDLQRR GQQKGRVYWR CYFNAVTCFK
+Pericapri                      AALQKAVEDD KAGPKFAPDM GENKMDLQRR GQEKGRVYWR CYFNAVSCFK
+Indotermes                     AALQKAVEDD KGGPNFAPDP AENKMDLQRR GQQKGRVYWR CYFNAVTCFK
+Mirocapri                      AALQKAVEDD KGGPKFAPEL VENKMDLQRR GEQKGRTFWR CYFNAVTCFK
+Globitermes                    AVLQKAAEDD KGGPNLAPDL AENKMDLQRR GQQKGRVYWR CYFNAVTCFK
+Nasutitermes                   AALQKAVEDD KVGPNLAPDL AENKMDLQRR GQQKGRVYWR CYFNAVTCFK
+Mastotermes_darwiniensis       SALQKAVEDD NTGRNFAPDT VENKMDLQRR GQQKGRVYWR CYFNAVTCFK
+Neotermes_castaneus            VALQKAVEDE KGSRNFAPGT VENKMDLQRR GQEKGRVYWR CYFNAVTCFK
+Promirotermes                  AALQKAVEDD KGGPKFAPDL AENKMDLQRR GQQKGRVYWR CYFNAVTCFK
+Prorhinotermes_inopiinatus     TAIQKAVEDE KGGPNIAPDP TENKMDLQRR GQQKGRVYWR CYFNAVTCFK
+Reticulitermes_speratus        AALQKAVEDQ KGGPNFAPDP AENKMDLQRR GQQKGRVYWR CYFNAVTCFK
+Cryptotermes_domesticus        LAVQKILKTN F--------T ARRVRKLYIR GEGKESVSQA CLVSVS----
+Odontotermes_formosanus        AALQKAVEDD KGGPNFAPDP AENKMDLQRR GQQKGRVYWR CYFNAVTCFK
+Periplaneta_americana          VALQKAVEDE KGARAFPDQL ADSKMDLQRR GQQKGRVYWR CYFNAVTCFR
+Prorhinotermes_simplex         TAIQKAVEDE KGGPNIAPDP TENKMDLQRR GQQKGRVYWR CYFNAVTCFK
+Zootermopsis                   VALQKAVEDG KGDRNFASNV AENKMDLQRR GQQKGRVYWR CYFNAVTCFK
+
+Blattella_germanica            --
+Cryptotermes_brevis            RK
+Coptotermes_formosanus         RK
+Cryptocercus_meridianus        RK
+Kalotermes_flavicollis         RK
+Pericapri                      RK
+Indotermes                     RK
+Mirocapri                      RK
+Globitermes                    RK
+Nasutitermes                   RK
+Mastotermes_darwiniensis       RK
+Neotermes_castaneus            RK
+Promirotermes                  RK
+Prorhinotermes_inopiinatus     RK
+Reticulitermes_speratus        RK
+Cryptotermes_domesticus        --
+Odontotermes_formosanus        RK
+Periplaneta_americana          RR
+Prorhinotermes_simplex         RK
+Zootermopsis                   RK
+
+
+;
+END;

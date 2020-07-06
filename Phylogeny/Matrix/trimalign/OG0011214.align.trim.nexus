@@ -1,0 +1,106 @@
+#NEXUS
+
+
+BEGIN DATA;
+ DIMENSIONS NTAX=23 NCHAR=106;
+ FORMAT DATATYPE=PROTEIN INTERLEAVE=yes GAP=-;
+[Name: Blattella_germanica			Len: 106 Check: 0]
+[Name: Blatta_orientalis			Len: 106 Check: 0]
+[Name: Cryptocercus_pudacoensis			Len: 106 Check: 0]
+[Name: Coptotermes_formosanus			Len: 106 Check: 0]
+[Name: Cryptocercus_meridianus			Len: 106 Check: 0]
+[Name: Kalotermes_flavicollis			Len: 106 Check: 0]
+[Name: Pericapri			Len: 106 Check: 0]
+[Name: Indotermes			Len: 106 Check: 0]
+[Name: Globitermes			Len: 106 Check: 0]
+[Name: Nasutitermes			Len: 106 Check: 0]
+[Name: Mastotermes_darwiniensis			Len: 106 Check: 0]
+[Name: Macrotermes_natalensis			Len: 106 Check: 0]
+[Name: Neotermes_castaneus			Len: 106 Check: 0]
+[Name: Nasutitermes_takasagoensis			Len: 106 Check: 0]
+[Name: Prorhinotermes_inopiinatus			Len: 106 Check: 0]
+[Name: Reticulitermes_speratus			Len: 106 Check: 0]
+[Name: Blaberus_atropos			Len: 106 Check: 0]
+[Name: Cryptotermes_domesticus			Len: 106 Check: 0]
+[Name: Cryptocercus_wrighti			Len: 106 Check: 0]
+[Name: Eupolyphaga_sinensis			Len: 106 Check: 0]
+[Name: Odontotermes_formosanus			Len: 106 Check: 0]
+[Name: Periplaneta_americana			Len: 106 Check: 0]
+[Name: Zootermopsis			Len: 106 Check: 0]
+
+MATRIX
+Blattella_germanica            MTIDFISFAY AATVATGGII GYTKAGSIPS LGAGLLFGSI LCYGAYQTSQ
+Blatta_orientalis              MPIDFLSFAY AATVATGGIV GYARAGSIPS LGAGLLFGSI LCYGAYQSSQ
+Cryptocercus_pudacoensis       MPIDFLSFAY AATVAAGGVV GYAKAGSIPS LGAGLLFGSI LCYGAYQSSQ
+Coptotermes_formosanus         MAIDVLSFAY AATVAAGGVV GYARAGSVPS LGAGLLFGSL LCYGAYQTSQ
+Cryptocercus_meridianus        MPIDFLSFAY AATVAAGGVV GYARAGSIPS LGAGLLFGSI LCYGAYQSSQ
+Kalotermes_flavicollis         MPIDYLSFAY AATVAAGGIV GYARAGSIPS LGAGLLFGSI LCYGAYQTSQ
+Pericapri                      MPVDVLSFAY AATVAAGGIV GYAKAGSVVS LGAGLLFGGL LCYGAYQTSQ
+Indotermes                     MPIDVLSFAY AATVAAGGIV GYVKAGSVPS LGAGLLFGGL LCYGAYQTSQ
+Globitermes                    MPIDVLSFAY AATVAAGGVV GYAKAGSVAS LGAGLLFGSL LCYGAYQTSQ
+Nasutitermes                   MPVDVLSFAY AATVAAGGIV GYAKAGSVAS LGAGLLFGGL LCYGAYQTSQ
+Mastotermes_darwiniensis       MPIDFLSFAY AATVATGGIV GYARAGSIPS LGAGLLFGSI LCYGAYQTSQ
+Macrotermes_natalensis         MPIDVLSFAY AATVAAGGIV GYVKAGSVPS LGAGLLFGSF LCYGAYQTSQ
+Neotermes_castaneus            MPIDYLSFAY AATVAAGGIV GYARAGSVPS LGAGLLFGSI LCYGAYQTSQ
+Nasutitermes_takasagoensis     MPVDVLSFAY AATVAAGGIV GYAKAGSVAS LGAGLLFGSL LCYGAYQTSQ
+Prorhinotermes_inopiinatus     MPVDVLSFAY AATVAAGGIV GYAKAGSIPS LGAGLLFGSL LCYGAYQTSQ
+Reticulitermes_speratus        MPIDVLSFAY AATVAAGGIV GYAKAGSIPS LGAGLLFGSL LCYGAYQTSQ
+Blaberus_atropos               MPIDFISFAY AATVATGGII GYTKAGSVPS LGAGLLFGSI LCYGAYQTSR
+Cryptotermes_domesticus        MPVDYLSFAY AATVAAGGIV GYARAGSIPS LGAGLLFGSI LCYGAYQTSQ
+Cryptocercus_wrighti           MPIDFLSFAY AATVAAGGVV GYARAGSIPS LGAGLLFGSI LCYGAYQTSQ
+Eupolyphaga_sinensis           MPIDFISFAY AATVATGGII GYTKAGSIPS LGAGLLFGSI LGYGAFQTSQ
+Odontotermes_formosanus        MPIDVLSFAY AATVAAGGIV GYVKAGSVPS LGAGLLFGSF LCYGAYQTSQ
+Periplaneta_americana          MPIDFLSFAY AATVATGGIV GYARAGSIPS LGAGLLFGSI LCYGAYQSSQ
+Zootermopsis                   MPIDFLSFAY AATVATGGIV GYARAGSVPS LGAGLLFGSI LCYGAYQTSQ
+
+Blattella_germanica            NPNNFGLIFG TSTALGGLMG YRFYNSGKFM PAGLVTILSA GMFLRFAARS
+Blatta_orientalis              NPNNYMVLLG TSGTLAGLMG YRFYNSGKFM PAGVVTILSV AMVLRLTARG
+Cryptocercus_pudacoensis       NPNNFMLLLG TSAALGGLMG YRFYNSGKFM PAGLVTILSV GMVLRLAARS
+Coptotermes_formosanus         NPNNFLLLLG TSAALGGLMG YRFYNSRKFM PAGLVTILSV GMVLRFAARS
+Cryptocercus_meridianus        NPNNFMLLLG TSAALGGLMG YRFYNSGKFM PAGLVTILSV GMVLRLAARS
+Kalotermes_flavicollis         NPNNFLLLLG TSAALGGLMG YRFYNSRKFM PAGLVTILSV GMVLRIAARS
+Pericapri                      NPNNYLLLLG TTAALGGLMG YRFYNSRKFM PAGLVTILSV GMILRFAARS
+Indotermes                     NPNNFLLLLG TSAALGGLMG YRFYNSGKFM PAGLVTILSV GMVLRFAARS
+Globitermes                    NPNNYLLLLG TSAALGGLMG YRFYNSRKFM PAGLVTILSV GMVLRFAARS
+Nasutitermes                   NPNNYLLLLG TSVALGGLMG YRFYNSRKFM PAGLVTILSV GMVLRFAARS
+Mastotermes_darwiniensis       NPNNFMLMLG TSAALGGLMG YRFYNSGKFM PAGLVTILSI GMVLRFAARS
+Macrotermes_natalensis         NPNNFLLLLG TSVALGGLMG YRFYNSRKFM PAGLVTILSV GMVLRFAARS
+Neotermes_castaneus            NPNNFLLLLG TSVALGGLMG YRYYNSRKFM PAGLVTILSV GMVLRIAAKS
+Nasutitermes_takasagoensis     NPNNYLLLLG TSVALGGLMG YRFYNSRKFM PAGLVTILSV GMVLRFAARS
+Prorhinotermes_inopiinatus     NPNNFLLLLG TSAALGGLMG YRFYNSRKFM PAGLVTILSV GMVLRFAARS
+Reticulitermes_speratus        NPNNFLFLLG TSAALGGLMG YRFYNSRKFM PAGLVTILSV GMVLRFAVRS
+Blaberus_atropos               DPNNFGLLFG TSAALGGLMG YRFYNSGKIM PAGIVTVLSV GMVLRFAARS
+Cryptotermes_domesticus        NPNNYLLLLG TSAVLGGLMG YRFYNSRKFM PAGLVTILSV GMVLRIAAKS
+Cryptocercus_wrighti           NPNNFILLLG TSAALGGLMG YRFYNSGKFM PAGLVTILSV GMVLRLAARS
+Eupolyphaga_sinensis           NPDNYNLIFG TSAVLGGLMG YRFYNSGKFM PAGLVTILSV AMVLRFAARS
+Odontotermes_formosanus        NPNNFLLLLG TSVALGGLMG YRFYNSRKFM PAGLVTILSV GMVLRFAARS
+Periplaneta_americana          NPNNYMVLLG TSGTLAGLMG YRFYNSGKFM PAGLVTILSV AMVLRLAARG
+Zootermopsis                   NPNNFMLLLG TSAALGGLMG FRFYNSGKFM PAGLVTILSV GMVLRFAARS
+
+Blattella_germanica            AGLLQA
+Blatta_orientalis              VGLLLS
+Cryptocercus_pudacoensis       AGLVQT
+Coptotermes_formosanus         AGLIQT
+Cryptocercus_meridianus        AGLVQT
+Kalotermes_flavicollis         AGLIQT
+Pericapri                      AGLMQT
+Indotermes                     AGLIQT
+Globitermes                    AGLMQT
+Nasutitermes                   AGLMQT
+Mastotermes_darwiniensis       AGLIQT
+Macrotermes_natalensis         AGLIQT
+Neotermes_castaneus            AGLIQA
+Nasutitermes_takasagoensis     AGLMQT
+Prorhinotermes_inopiinatus     AGLIQT
+Reticulitermes_speratus        AGLIQT
+Blaberus_atropos               AGLLQS
+Cryptotermes_domesticus        AGLLQT
+Cryptocercus_wrighti           AGLVQT
+Eupolyphaga_sinensis           AGLIQS
+Odontotermes_formosanus        AGLIQT
+Periplaneta_americana          AGLLQS
+Zootermopsis                   AGLIQA
+
+
+;
+END;

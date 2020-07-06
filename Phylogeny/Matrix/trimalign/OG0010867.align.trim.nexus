@@ -1,0 +1,110 @@
+#NEXUS
+
+
+BEGIN DATA;
+ DIMENSIONS NTAX=24 NCHAR=104;
+ FORMAT DATATYPE=PROTEIN INTERLEAVE=yes GAP=-;
+[Name: Blattella_germanica			Len: 104 Check: 0]
+[Name: Cryptotermes_brevis			Len: 104 Check: 0]
+[Name: Coptotermes_formosanus			Len: 104 Check: 0]
+[Name: Cryptocercus_meridianus			Len: 104 Check: 0]
+[Name: Kalotermes_flavicollis			Len: 104 Check: 0]
+[Name: Pericapri			Len: 104 Check: 0]
+[Name: Indotermes			Len: 104 Check: 0]
+[Name: Mirocapri			Len: 104 Check: 0]
+[Name: Nasutitermes			Len: 104 Check: 0]
+[Name: Mastotermes_darwiniensis			Len: 104 Check: 0]
+[Name: Macrotermes_natalensis			Len: 104 Check: 0]
+[Name: Macrotermes_subhyalinus			Len: 104 Check: 0]
+[Name: Neotermes_castaneus			Len: 104 Check: 0]
+[Name: Nasutitermes_takasagoensis			Len: 104 Check: 0]
+[Name: Promirotermes			Len: 104 Check: 0]
+[Name: Prorhinotermes_inopiinatus			Len: 104 Check: 0]
+[Name: Reticulitermes			Len: 104 Check: 0]
+[Name: Reticulitermes_speratus			Len: 104 Check: 0]
+[Name: Cryptotermes_domesticus			Len: 104 Check: 0]
+[Name: Cryptocercus_wrighti			Len: 104 Check: 0]
+[Name: Odontotermes_formosanus			Len: 104 Check: 0]
+[Name: Periplaneta_americana			Len: 104 Check: 0]
+[Name: Prorhinotermes_simplex			Len: 104 Check: 0]
+[Name: Zootermopsis			Len: 104 Check: 0]
+
+MATRIX
+Blattella_germanica            MAEGEGKKEE QEAAKKIVHT YPLIRHSDMV EEMRGEVMEL VVTACEKHAA
+Cryptotermes_brevis            MTEVEGKKEE TETAKKIIHT YPLIRHSDMM EEMKGEVMEL VVTACEKHST
+Coptotermes_formosanus         MTELEGKKEE TEAAKKIVHT YPLIRHSDMM EEMKGEVMEL VVTACEKHST
+Cryptocercus_meridianus        MTEVEGKKEE PETAKKIVHT YPLVRHSDMM EEMKGEVMEL VVTACEKHST
+Kalotermes_flavicollis         MTEVEGKKEE TETAKKIIHT YPLIRHSDMI EEMKGEVMEL VVTACEKHST
+Pericapri                      --------EE TEATKKVIHT YPLIRHSDMV EEMKGEVMEL VVTACEKHST
+Indotermes                     MTDLEGKKEE TDAAKKVIHT YPLIRHSDMV EEMKGEVMEL IVTACEKHST
+Mirocapri                      MTDLEGKKEE TEAAKKVIHT YPLIRHSDMV EEMKGEVMEL VVTACEKHST
+Nasutitermes                   MTDLEGKKEE TEAAKKVIHT YPLIRHSDMV EEMKGEVMEL VVTACEKHST
+Mastotermes_darwiniensis       -------KEE TE-TKKIVHT YPLIRHSDMM DEMKADVMEL VATACEKHSA
+Macrotermes_natalensis         MTDLEGKKEE TEAAKKVIHT YPLIRHSDMV EEMKGEVMEL VVTACEKHST
+Macrotermes_subhyalinus        MTDLEGKKEE TEAAKKVIHT YPLIRHSDMV EEMKGEVMEL VVTACEKHST
+Neotermes_castaneus            MTEVEGKKEE TETAKKIVHT YPLIRHSDMM EEMKAEVMEL VVTACEKHST
+Nasutitermes_takasagoensis     MTDLEGKKEE TEAAKKVIHT YPLIRHSDMV EEMKGEVMEL VVTACEKHST
+Promirotermes                  ---------- ---------- ---------- -----EVMEL VVTACEKHST
+Prorhinotermes_inopiinatus     MTELEGKKEE TEAAKKIIHT YPLIRHSDMM EEMKGEVMEL VVTACEKHST
+Reticulitermes                 MTELEGKKEE TDAAKKIIHT YPLIRHSDMM EEMKGEVMEL VVTACEKHST
+Reticulitermes_speratus        MTELEGKKEE TDAAKKIIHT YPLIRHSDMM EEMKGEVMEL VVTACEKHST
+Cryptotermes_domesticus        MTEVEGKKDE TETAKKIVHT YPLIRHSDMM EEMKGEVMEL VVTACEKHST
+Cryptocercus_wrighti           MTEVEGKKEE PEAAKKIVHT YPLVRHSDMM EEMKGEVMEL VVTACEKHSA
+Odontotermes_formosanus        MTDVEGRKEE TEAAKKVIHT YPLIRHSDMV EEMKGEVMEL VVTACEKHST
+Periplaneta_americana          MTEVEGKKEE PEAAKKIVHT YPLIRHSDMA EEMKGEVMEL VVTACEKHAT
+Prorhinotermes_simplex         MTELEGKKEE TEAAKKIIHT YPLIRHSDMM EEMKGEVMEL VVTACEKHST
+Zootermopsis                   MTDLEGKRDE TETAKKIVHT YPLIRNSDMV EEMKGEVMEL VVTACEKHST
+
+Blattella_germanica            NNEMAARMIK E--------- ---------- ---------- ----------
+Cryptotermes_brevis            NNEMAARMIK ETMDKKFGPS WHTVVGEGFG FEIS------ ----------
+Coptotermes_formosanus         NNEMAARMIK ETMDKKFGPS WHTVVGEGFG FEISYECKNL LYMFFGGNCI
+Cryptocercus_meridianus        NNEMAARMIK ESMDKKFGPS WHTVVGEGFG FEISYECKNL LYMFFGGNCI
+Kalotermes_flavicollis         NNEMAARMIK ETMDKKFGPS WHTVVGEGFG FEISYECKNL LYMFFGGNCI
+Pericapri                      NNEMAARMIK ETMDKKFGPS WHTVVGEGFG FEISYEY--- ----------
+Indotermes                     NNEMAARMIK ETMDKKFGPS WHTVVGEGFG FEISYECKNL LYMFFGGNCI
+Mirocapri                      NNEMAARMIK ETMD------ ---------- ---------- ----------
+Nasutitermes                   NNEMAARMIK ETMDKKFGPS WHTVVGEGFG FEISYECKNL LYMFFGGNCI
+Mastotermes_darwiniensis       NNEMAARMIK ETMDKKFGPS WHTVVGEGFG FEISYELKNL LYMFFGGNCI
+Macrotermes_natalensis         NNEMAARMIK ETMDKKFGPS WHTVVGEGFG FEISYECKNL LYMFFGGNCI
+Macrotermes_subhyalinus        NNEMAARMIK ETMDKKFGPS WHTVVGEGFG FEISYE---- ----------
+Neotermes_castaneus            NNEMAARMIK ETMDKKFGPS WHTVVGEGFG FEISYECKNL LYMFFGGNCI
+Nasutitermes_takasagoensis     NNEMAARMIK ETMDKKFGPS WHTVVGEGFG FEISYECKNL LYMFFGGNCI
+Promirotermes                  NNEMAARMIK EAMDKKFGPS WHTVVGEGFG FEISYECKNL LYMFFGGNCI
+Prorhinotermes_inopiinatus     NNEMAARMIK ETMDKKFGPS WHTVVGEGFG FEISYEYPGI L-------IT
+Reticulitermes                 NNEMAARMIK ETMDKKFGPS WHTVVGEGFG FEISYECKNL LYMFFGGNCI
+Reticulitermes_speratus        NNEMAARMIK ETMDKKFGPS WHTVVGEGFG FEISYEYDNC PQRKILGH--
+Cryptotermes_domesticus        NNEMAARMIK ETMDKKFGPS WHTVVGEGFG FEISYECKNL LYMFFGGNCI
+Cryptocercus_wrighti           NNEMAARMIK ESMDKKFGPS WHTVVGEGFG FEISYECKNL LYMFFGGNCI
+Odontotermes_formosanus        NNEMAARMIK ETMDKKFGPS WHTVVGEGFG FEISYEYES- --------AT
+Periplaneta_americana          NNELAARMIK EMMDKKYGPS WHTVVG---- ---------- ----------
+Prorhinotermes_simplex         NNEMAARMIK ETMDKKFGPS WHTVVGEGFG FEISYECKNL LYMFFGGNCI
+Zootermopsis                   NNEMAARMIK ETMDKKFGPS WHTVVGEGFG FEISYECNNL LYMFFGGNCI
+
+Blattella_germanica            ----
+Cryptotermes_brevis            ----
+Coptotermes_formosanus         WKCS
+Cryptocercus_meridianus        WKCS
+Kalotermes_flavicollis         WKCS
+Pericapri                      ----
+Indotermes                     WKCS
+Mirocapri                      ----
+Nasutitermes                   WKCS
+Mastotermes_darwiniensis       WKC-
+Macrotermes_natalensis         WKCS
+Macrotermes_subhyalinus        ----
+Neotermes_castaneus            WKCS
+Nasutitermes_takasagoensis     WKCS
+Promirotermes                  WKCS
+Prorhinotermes_inopiinatus     KQVK
+Reticulitermes                 WKCS
+Reticulitermes_speratus        ----
+Cryptotermes_domesticus        WKCS
+Cryptocercus_wrighti           WKCS
+Odontotermes_formosanus        PNIR
+Periplaneta_americana          ----
+Prorhinotermes_simplex         WKCS
+Zootermopsis                   WKCS
+
+
+;
+END;
