@@ -1,0 +1,9 @@
+# BUSCO version is: 3.0.2 
+# The lineage dataset is: arthropoda_odb9 (Creation date: 2017-02-07, number of species: 60, number of BUSCOs: 1066)
+# To reproduce this run: python /home/she/opt/busco-master/scripts/run_BUSCO.py -i Kf_Trinity.fasta -o Kf_busco -l /home/she/database/arthropoda_odb9/ -m transcriptome -c 20
+#
+EOG090X05GA
+EOG090X05LM
+EOG090X09GK
+EOG090X09TR
+EOG090X0O5J
