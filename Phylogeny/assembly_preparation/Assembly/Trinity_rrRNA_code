@@ -1,0 +1,11 @@
+bowtie2 --very-sensitive-local -x ../cockroach -f Trinity.fasta --al-gz ./SRA_Ba_Trinity_rRNA --un-gz ./SRA_Ba_Trinity_trim --quiet
+
+bowtie2 --very-sensitive-local -x ../cryptocercus -f Trinity.fasta --al-gz ./Cm_Trinity_rRNA --un-gz ./Cm_Trinity_trim --quiet
+
+bowtie2 --very-sensitive-local -x ../termitidea -f Trinity.fasta --al-gz ./Ms_Trinity_rRNA --un-gz ./Ms_Trinity_trim --quiet
+
+bowtie2 --very-sensitive-local -x ../rhinotermitidae -f Trinity.fasta --al-gz ./Pi_Trinity_rRNA --un-gz ./Pi_Trinity_trim --quiet
+
+bowtie2 --very-sensitive-local -x ../termite -f Trinity.fasta --al-gz ./Nc_Trinity_rRNA --un-gz ./Nc_Trinity_trim --quiet
+
+bowtie2 --very-sensitive-local -x ../mantids -f Trinity.fasta --al-gz ./SRA_Hc_Trinity_rRNA --un-gz ./SRA_Hc_Trinity_trim --quiet
