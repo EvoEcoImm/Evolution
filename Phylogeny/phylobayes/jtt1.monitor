@@ -1,0 +1,46 @@
+	UpdateSumRateMode             	57616	100	
+	ResampleRateModeAff           	19	100	
+	ResampleSub                   	90140	100	
+	SwitchModeIntegral            	157	0	
+	ResampleStat                  	61	10.3097	
+	ResampleSub                   	90156	100	
+	Mu                            	289	17.6722	
+	MuRho                         	282	12.4227	
+	Sigma                         	258	13.6766	
+	Mu                            	279	82.0293	
+	MuRho                         	282	74.9598	
+	Sigma                         	280	58.8117	
+	Mu                            	285	98.1759	
+	MuRho                         	287	97.4032	
+	Sigma                         	267	95.3621	
+	AddRho                        	4732	75.0782	
+	AddRho                        	4759	97.3988	
+	AddRho                        	4558	99.7404	
+	OneBranchLength               	43935	1.43912	
+	OneBranchLength               	43948	14.3488	
+	OneBranchLength               	43923	74.1025	
+	OneTimeNode                   	3683	32.7149	
+	OneTimeNode                   	3571	83.4741	
+	Chi                           	1484	35.5814	
+	Chi                           	1483	90.8274	
+	Chi                           	1469	99.0779	
+	Chi2                          	1530	35.2479	
+	Chi2                          	1483	90.7125	
+	Chi2                          	1425	99.0675	
+	Scale                         	1575	3.17007	
+	Scale                         	1459	31.6415	
+	Scale                         	1455	87.8487	
+	Scale                         	1436	98.7002	
+	UpdateLogProbs                	14538	100	
+	ResampleSub                   	90076	100	
+	GammaIntegral                 	785	3.91721	
+	GammaIntegral                 	778	37.6636	
+	GammaIntegral                 	746	91.6634	
+	UpdateSumRateMode             	57887	100	
+
+
+	stat inf count : 0
+	inf prob count : 0
+	sub overflow count : 233
+	sub max count : 4
+
