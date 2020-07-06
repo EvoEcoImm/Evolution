@@ -1,0 +1,102 @@
+#NEXUS
+
+
+BEGIN DATA;
+ DIMENSIONS NTAX=22 NCHAR=144;
+ FORMAT DATATYPE=PROTEIN INTERLEAVE=yes GAP=-;
+[Name: Blattella_germanica			Len: 144 Check: 0]
+[Name: Cryptotermes_brevis			Len: 144 Check: 0]
+[Name: Coptotermes_formosanus			Len: 144 Check: 0]
+[Name: Hodotermopsis_sjostedti			Len: 144 Check: 0]
+[Name: Kalotermes_flavicollis			Len: 144 Check: 0]
+[Name: Pericapri			Len: 144 Check: 0]
+[Name: Indotermes			Len: 144 Check: 0]
+[Name: Mirocapri			Len: 144 Check: 0]
+[Name: Globitermes			Len: 144 Check: 0]
+[Name: Nasutitermes			Len: 144 Check: 0]
+[Name: Mastotermes_darwiniensis			Len: 144 Check: 0]
+[Name: Macrotermes_natalensis			Len: 144 Check: 0]
+[Name: Macrotermes_subhyalinus			Len: 144 Check: 0]
+[Name: Neotermes_castaneus			Len: 144 Check: 0]
+[Name: Nasutitermes_takasagoensis			Len: 144 Check: 0]
+[Name: Promirotermes			Len: 144 Check: 0]
+[Name: Prorhinotermes_inopiinatus			Len: 144 Check: 0]
+[Name: Reticulitermes			Len: 144 Check: 0]
+[Name: Cryptotermes_domesticus			Len: 144 Check: 0]
+[Name: Odontotermes_formosanus			Len: 144 Check: 0]
+[Name: Prorhinotermes_simplex			Len: 144 Check: 0]
+[Name: Zootermopsis_nevadasis			Len: 144 Check: 0]
+
+MATRIX
+Blattella_germanica            ---------- ---------- ---------- ---------- ----------
+Cryptotermes_brevis            ---------- ---------- ---------- ---------- ----------
+Coptotermes_formosanus         MDRSAISVLC LLLLAAFLRE SYAGASKAQM KQALKIVRNI CQPKCGATTA
+Hodotermopsis_sjostedti        MERTAVSALC LLVLAAFVQE TYAAASKAQM KQALKMVRNL CQPKSGASTA
+Kalotermes_flavicollis         MDRSAISVLC LLFLAASLQG AAAGASKSQM KQALKMVRNI CQPKSGASTA
+Pericapri                      MDRSAIAVVV LLLLGAFLRE SYAGPSSAQM KQALKVVRNV CQPKSGATTA
+Indotermes                     ---------- ---------- ---------- ------LRNV CQPKSGACTA
+Mirocapri                      MDRSAIAVVV LLLLGAFLRE SYGGPSQAQL KQALKVVRNV CQPKSGAATA
+Globitermes                    MDRRARAVVI LLLLGAFLRE SYAGPSQAQL KQALKVVRNV CQPKTGASTA
+Nasutitermes                   MDSSAIAIIL LLLMGAFLQE SYTEPSQAQL KQALKIVRNM CQPKSGATTA
+Mastotermes_darwiniensis       ---------- ---------- -CAATSKAQI NQALKMARNM CQPKSGASTA
+Macrotermes_natalensis         MDRSGIAVVF LLLLGAFLRE GFAGPSQAQL RQALKIVRNV CQPKSGATTA
+Macrotermes_subhyalinus        MDRSGIAVVF LLLLGAFLRE GFAGPSQAQV RQALKIVRNV CQPKSGATTA
+Neotermes_castaneus            ---------- ---------- ---------- ---------- ----------
+Nasutitermes_takasagoensis     ---------- ---------- ---------- ---------- ----------
+Promirotermes                  MDRGAIAVVV LLLLGAFLRH SYADPSEVQL KQALKIARNV CQPKSGASTA
+Prorhinotermes_inopiinatus     MDRSAISVLY LLLLAAFLQE SYAGPSKAQI KQALKIVRNV CQPKTACTTE
+Reticulitermes                 MDRSVISVFC LLLLATFLRE NYAGTSKAQM KQALKIVRNI CQPKCGATTA
+Cryptotermes_domesticus        MGHGAISVLC LLFLVAFLQE AAAGASKSQM KQALRMVRNI CQPKSGASTA
+Odontotermes_formosanus        MDRSAIVFVF LLLLGAFLRE SFAGPSQAQL KQALKIVRNI CQPKSGATTA
+Prorhinotermes_simplex         MDRSAISVLY LLLLAAFLQE SYAGPSKAQI KQALKIVRNV CQPKTACTTE
+Zootermopsis_nevadasis         -ERATVSALC LLLLVAFVRE TDAGASKAQM KQALKMVRSI CQPKSGASTA
+
+Blattella_germanica            ----ICDGNF PDKVPLKEYT CCVLDMLRVM NGDKFEPDEA LDNLKDLPDR
+Cryptotermes_brevis            --------VF PEDDKLKEYC NCILGLMKLM KNNKFDAEGG LANIEKLPES
+Coptotermes_formosanus         EIDGIAKGNF PNNENLQEYC RCILDLLKLM KNDRFDPDAG LENLQKLPED
+Hodotermopsis_sjostedti        DIDGITKGKF PDNDKLKEYC YCILGLMKLM KNNKFDPDSG LANIDKLPEN
+Kalotermes_flavicollis         AIDGIMKGTF PDDNNLKEYC NCILGLMKLM KNNKFDPDVG LANIEKLPES
+Pericapri                      DIDGITKGIF PGNEKLQEYC KCILDLLKVI KNGRFEPDAG LENLQKLPEE
+Indotermes                     DIDGIRIGKF PGNVKLQEYC KCVLDVLRLM RNERFDPDAG LENLQKLPED
+Mirocapri                      DIDGIVKGIF PDNEKLQEYC KCILDLLKVI KNGKFEPDAG LENLQKLPEN
+Globitermes                    DIDGIVKGIF PNNEKLQEYC KCILDLLKVI KNGRFEPDAG LENLQKLPEN
+Nasutitermes                   DIDGIQKGIF PNNAKLKEYT KCVLDLLRVI RNGRFDADAG LESIGKLPEK
+Mastotermes_darwiniensis       DIDGIRKGKF PDNDEIKEYC NCILGLLKVM KDDKFDPDTG LKNLATLPDN
+Macrotermes_natalensis         DIDGIRKGIF PNNEKLKEYT KCILELLKLM RDGRFDPDTG LENLKRMPEE
+Macrotermes_subhyalinus        DIDGIRKGIF PNNEKLQEYT KCILELLKLM KNGRFDPDAG LENLKRMPEE
+Neotermes_castaneus            -------GKF PDDDNLKEYC NCILGLMKLM KNNKFDPNAG LANLEKLPDS
+Nasutitermes_takasagoensis     ---------- ---------- ---------M RNGRFDADAG LESLEKLPES
+Promirotermes                  DIDGIGKGIF PVNEKLQEYC KCICDLLKVI RNGKFEPDAV LENMQKLPEE
+Prorhinotermes_inopiinatus     EIDGIRKGIF PHNVNLQEYC YCILDILKVM ENDKFNPDGG MDNLDKLPED
+Reticulitermes                 EIDGIMKGNF PDNQNLQEYC RCILDLIKLM KNDRFDPDAG LENLDKLPED
+Cryptotermes_domesticus        AIDGIMKGRF PDDDKLKEYC NCILGLMKLM KNNKFDADGG LANIEKLPES
+Odontotermes_formosanus        DIDGIRKGIF PNNEKLQEYC KCILDLLKIM KNDRFNPDAG LENLKKLPEE
+Prorhinotermes_simplex         EIDGIRKGIF PHNVNLQEYC YCILDLLKVM ENDKFNPDSG MENLDKLPED
+Zootermopsis_nevadasis         DIDGIMKGKF PDDDRLKDYC LCILGLMKLM KDNKFDPDTG LANLDKLPDN
+
+Blattella_germanica            VKKHLMEGIN QCRNSGKNGS TCAETAYEVV KCFKATLGKY FFFP
+Cryptotermes_brevis            LKGPLKEGVK KCRTADAGTT EARES----- ---------- ----
+Coptotermes_formosanus         LREPLKEGVS KCRKADEGSK TGREAAYAVV KCMYHAIPDH FIFP
+Hodotermopsis_sjostedti        LRDPMTEAVG KCRTADQGYT VAREAAYAVV KCMYAAMPDH FIFP
+Kalotermes_flavicollis         LRGPLKEGVS KCRTADAGTT EAREAAYAVV KCMYSAIPDQ FIFP
+Pericapri                      LREPMKNAVN QCRKADEGCT TGREVAYAVV KCMYHADPDH FIFP
+Indotermes                     LRGPMKEGIT NCRNKDEGCK TGNEVAYKIV ECICCTVGDK FIFP
+Mirocapri                      LREPMKRAVN ICRNDKEGAK TGQAVAYAVV KCMYHANPDT FIFP
+Globitermes                    LREPLKEGVN KCRKADEGCK TGREVAYAVV QCMYHAIPEQ FIFP
+Nasutitermes                   LREPLKKGVN MCRKADEGYT TPQDVAYAVV RCMYNEIPND FIFP
+Mastotermes_darwiniensis       LQGPLKEGIT KCRNADEGYT KASEAAYAVV KCMYKAVPKN FIFP
+Macrotermes_natalensis         LQGPLKKGVM KCRKADEGSK TAQDAAYMVV KCIYKAIPQE FIFP
+Macrotermes_subhyalinus        LQGPLKKGVI KCRKADEGSK TAQEAAYMVV KCIYKAIPQE FIFP
+Neotermes_castaneus            LRGPLKEGVS KCRTADAGTT VAREAAYAVV KCMYNAIP-- ----
+Nasutitermes_takasagoensis     VREPLKEGIN KCRKADEGSK TARDVAYAVV KCIYNAIPND FIFP
+Promirotermes                  LRGPLKEAVN KCRKAGEGCK TAREVAYAVV KCMYNADPDH FMFP
+Prorhinotermes_inopiinatus     LRRPLKEGIS KCRKADEGCK TGRESAYAVV KCMYNAVPDQ FIFP
+Reticulitermes                 LREPLKEGVS KCRKADEGCK TGREAAYAVV KCMYNAVPDH FVFP
+Cryptotermes_domesticus        LKGPLKEGVT KCRKADAGTT EARESAYAVV KCMYNAIPDQ FIFP
+Odontotermes_formosanus        LREPLKKGVT ECRKADEGSK SGREAAYKVV KCIYNTIPQD FVFP
+Prorhinotermes_simplex         LRRPLKEGIS KCRKADEGCK TGRESAYAVV KCMYNAIPDQ FIFP
+Zootermopsis_nevadasis         MREPLREAVT KCRKADQGYS VAREAAYAVV KCMYSAAPDN FLFP
+
+
+;
+END;

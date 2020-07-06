@@ -1,0 +1,94 @@
+#NEXUS
+
+
+BEGIN DATA;
+ DIMENSIONS NTAX=20 NCHAR=109;
+ FORMAT DATATYPE=PROTEIN INTERLEAVE=yes GAP=-;
+[Name: Blattella_germanica			Len: 109 Check: 0]
+[Name: Coptotermes_formosanus			Len: 109 Check: 0]
+[Name: Hodotermopsis_sjostedti			Len: 109 Check: 0]
+[Name: Kalotermes_flavicollis			Len: 109 Check: 0]
+[Name: Pericapri			Len: 109 Check: 0]
+[Name: Indotermes			Len: 109 Check: 0]
+[Name: Globitermes			Len: 109 Check: 0]
+[Name: Nasutitermes			Len: 109 Check: 0]
+[Name: Mastotermes_darwiniensis			Len: 109 Check: 0]
+[Name: Macrotermes_subhyalinus			Len: 109 Check: 0]
+[Name: Neotermes_castaneus			Len: 109 Check: 0]
+[Name: Prorhinotermes_inopiinatus			Len: 109 Check: 0]
+[Name: Reticulitermes			Len: 109 Check: 0]
+[Name: Blaberus_atropos			Len: 109 Check: 0]
+[Name: Cryptotermes_domesticus			Len: 109 Check: 0]
+[Name: Cryptocercus_wrighti			Len: 109 Check: 0]
+[Name: Odontotermes_formosanus			Len: 109 Check: 0]
+[Name: Periplaneta_americana			Len: 109 Check: 0]
+[Name: Prorhinotermes_simplex			Len: 109 Check: 0]
+[Name: Zootermopsis_nevadasis			Len: 109 Check: 0]
+
+MATRIX
+Blattella_germanica            ---------- ---------- ---------- ---------A EVGSPTPKWR
+Coptotermes_formosanus         MRDNPPSSST SKSTPQPVIR QRKKPHMLPP LEQRRNSVDA EVGSPTPQWR
+Hodotermopsis_sjostedti        MKDKTPSSNT STSTTQPVIR QRKKPHMLPP IEKRRYSIDA EVGSPTPKWR
+Kalotermes_flavicollis         MKDKPPSPGT STSTTQPAMR QRKKPHMLPP LEKRRNSVDA EVGSPTPKWR
+Pericapri                      MKDNLPSPST STSTTQPVIR QRKKPHMLPP LEKRRNSVDS EVGSPTPKWR
+Indotermes                     ---------- ---------- ---------- ---------- ------PKWR
+Globitermes                    MKDNLPSPST STSTTQPVIR QRKKPHMLPP LEKRRNSVDA EVGSPTPKWR
+Nasutitermes                   MKDNLPSPST STSTTQPVIR QRKKPHMLPP LEKRRNSVDA EVGSPTPKWR
+Mastotermes_darwiniensis       ---------- ---------- ---------- ---------- -VGSPTPKWR
+Macrotermes_subhyalinus        MKDHLPTPST SASTTQPVMR QRKKPHILPP LEKRRNSVDA EVGSPTPKWR
+Neotermes_castaneus            MKDEPSSPGT STSTTQPAMR QRKKPHMLPP LEKRRNSVDA EVGSPTPKWR
+Prorhinotermes_inopiinatus     ---------- ---------- ---------- ---------- ------PKLR
+Reticulitermes                 MKDNPTSPST STSSTQPVVR KRKKPHKLPP LQKPANSVEP EMGSPTPQWR
+Blaberus_atropos               MKEKPPSSSS SPSTSQPVIR QRKKPHMLPP LEKRRNSWH- -------KLL
+Cryptotermes_domesticus        MKDAPSSPGT STSTTQPVLR QRKKPHMLPP LEKRRNSVDA EVGSPTPKWR
+Cryptocercus_wrighti           MKDKPPTSST STPTTQPVIR QRKKPHMLPP LEKRRNSVR- -------RI-
+Odontotermes_formosanus        MKEHLPAPST SASTTQPVIR QRKKPHILPP LEKRRNSVDA EVGSPTPKWR
+Periplaneta_americana          MKDKPPASSS SATTAQPVIR QRKKPHMLPP LEKRRNSVDA EVGSPTPKWR
+Prorhinotermes_simplex         MAETLPTSSA STSHKKPQIR WRKKPQILPP IEKRRPSVDK EAGSPTPKLR
+Zootermopsis_nevadasis         MKDKPPSSNT SASTTQQVIR QRKKPHMLPP LEKRRNSVDA EVGSPTPKWR
+
+Blattella_germanica            RPSLEEQLIL EEPPVDGRPV IRLTRCPDVA NPLPVAPTIH IGSRYAPLEP
+Coptotermes_formosanus         RPSLEEQLIL EEPPVDGRPV IRVTRCPDVT NPLPVAPTIQ IASRYTPLEP
+Hodotermopsis_sjostedti        RPSLEEQLIL ---------- ---------- ---------- ----------
+Kalotermes_flavicollis         RPSLEEQLIL EEPPVDGRPV IRVTRCPDAS NPLPIAPTIH ISSRYTPLEP
+Pericapri                      RPSLEEQLIL EEPPVDGRPV IRLTRCPDVT NPLPVAPTKH IASRYTPLE-
+Indotermes                     RPSLEEQLIL EEPPVDGRPV IRLTRCPDVT NPLPVAPTIH IASRYTPLEP
+Globitermes                    RPSLEEQLIL EEPPVDGRPV IRLTRCPDVT NPLPVAPTKH IASRYTPLEP
+Nasutitermes                   RPSLEEQLIL EEPPVDGRPV IRLTRCPDVT NPLPVAPTKH IASRYTPLEP
+Mastotermes_darwiniensis       RPSLEEQLIL EEPPVDGRPV IRLTRCPDVT NPLPVAPTIH IASRYTPLEP
+Macrotermes_subhyalinus        RPSLEEQLIL EEPPVDGRPV IRLTRCPDVT NPLPVAPTIH IASRYTPLEP
+Neotermes_castaneus            RPSLEEQLIL EEPPVDGRPV IRLTRCPDAT NPLPIAPTIH ISSRYTPLEP
+Prorhinotermes_inopiinatus     EPTEDEEKIF DETPVNGLPV FRLTRCTDDP DPLPAGATNQ IPSRYTPLEP
+Reticulitermes                 LPNPEEQQLF EEPATDGRPV IRLTRCPDIK SSLPVAQTKQ IPSRYTLLEP
+Blaberus_atropos               YPFFKEWCLQ ALQPIDGIPQ L--------- ---------- -------LDS
+Cryptotermes_domesticus        RPSLEEQLIL EEPPVDGRPV IRLTRCPD-- ---------- ----------
+Cryptocercus_wrighti           ---------- ---------- ---------- ---------- ----------
+Odontotermes_formosanus        RPSLEEQLIL EEPPVDGRPV IRLTRCPDVT NPLPVAPTIH IASRYTPLEP
+Periplaneta_americana          RPSLEEQLIL EEPPVDGRPV IRLTRCPDVA NPLPVAPTIH IASRYTPLEP
+Prorhinotermes_simplex         EPTEDEEKIF DETPVNGLPI FRLTRCTDDP DPLPAGATNQ IPSRYTPLEP
+Zootermopsis_nevadasis         RPSLEEQLIL EEPPVDGRPV IRLTRCPDVT NPLPVAPTIH IASRYTPLEP
+
+Blattella_germanica            IKRRNSHQT
+Coptotermes_formosanus         IRRRNSQQT
+Hodotermopsis_sjostedti        ---------
+Kalotermes_flavicollis         IKRRNSQPT
+Pericapri                      ---------
+Indotermes                     IKSRNSQQT
+Globitermes                    IKSRNSQQT
+Nasutitermes                   IKSRNSQQT
+Mastotermes_darwiniensis       IKRRNSQQT
+Macrotermes_subhyalinus        IKSRNSQQT
+Neotermes_castaneus            IKRRNSQPT
+Prorhinotermes_inopiinatus     IKPKTSKKA
+Reticulitermes                 IKGSNNKQT
+Blaberus_atropos               FKALSSQPE
+Cryptotermes_domesticus        ---------
+Cryptocercus_wrighti           ---------
+Odontotermes_formosanus        IKSRNSQQT
+Periplaneta_americana          IKRRNSQQI
+Prorhinotermes_simplex         IKPKTSKKA
+Zootermopsis_nevadasis         IKRRNSKQT
+
+
+;
+END;
