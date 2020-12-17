@@ -1,0 +1,168 @@
+Error: [blastdbcmd] Entry not found: 1BWO_A
+Error: [blastdbcmd] Skipped 1BWO_A
+Error: [blastdbcmd] Entry not found: 1EQK_A
+Error: [blastdbcmd] Skipped 1EQK_A
+Error: [blastdbcmd] Entry not found: 1FCQ_A
+Error: [blastdbcmd] Skipped 1FCQ_A
+Error: [blastdbcmd] Entry not found: 1FVF_A
+Error: [blastdbcmd] Skipped 1FVF_A
+Error: [blastdbcmd] Entry not found: 1G98_A
+Error: [blastdbcmd] Skipped 1G98_A
+Error: [blastdbcmd] Entry not found: 1GL1_I
+Error: [blastdbcmd] Skipped 1GL1_I
+Error: [blastdbcmd] Entry not found: 1HDG_O
+Error: [blastdbcmd] Skipped 1HDG_O
+Error: [blastdbcmd] Entry not found: 1JLV_A
+Error: [blastdbcmd] Skipped 1JLV_A
+Error: [blastdbcmd] Entry not found: 1KX3_B
+Error: [blastdbcmd] Skipped 1KX3_B
+Error: [blastdbcmd] Entry not found: 1NLV_A
+Error: [blastdbcmd] Skipped 1NLV_A
+Error: [blastdbcmd] Entry not found: 1OQC_A
+Error: [blastdbcmd] Skipped 1OQC_A
+Error: [blastdbcmd] Entry not found: 1PWE_A
+Error: [blastdbcmd] Skipped 1PWE_A
+Error: [blastdbcmd] Entry not found: 1QVB_A
+Error: [blastdbcmd] Skipped 1QVB_A
+Error: [blastdbcmd] Entry not found: 1R46_A
+Error: [blastdbcmd] Skipped 1R46_A
+Error: [blastdbcmd] Entry not found: 1STP_A
+Error: [blastdbcmd] Skipped 1STP_A
+Error: [blastdbcmd] Entry not found: 1VYA_A
+Error: [blastdbcmd] Skipped 1VYA_A
+Error: [blastdbcmd] Entry not found: 1WWK_A
+Error: [blastdbcmd] Skipped 1WWK_A
+Error: [blastdbcmd] Entry not found: 2A0A_A
+Error: [blastdbcmd] Skipped 2A0A_A
+Error: [blastdbcmd] Entry not found: 2CFE_A
+Error: [blastdbcmd] Skipped 2CFE_A
+Error: [blastdbcmd] Entry not found: 2CW2_A
+Error: [blastdbcmd] Skipped 2CW2_A
+Error: [blastdbcmd] Entry not found: 2F8N_H
+Error: [blastdbcmd] Skipped 2F8N_H
+Error: [blastdbcmd] Entry not found: 2GVS_A
+Error: [blastdbcmd] Skipped 2GVS_A
+Error: [blastdbcmd] Entry not found: 2I1J_A
+Error: [blastdbcmd] Skipped 2I1J_A
+Error: [blastdbcmd] Entry not found: 2ISV_A
+Error: [blastdbcmd] Skipped 2ISV_A
+Error: [blastdbcmd] Entry not found: 2LUS_A
+Error: [blastdbcmd] Skipped 2LUS_A
+Error: [blastdbcmd] Entry not found: 2MOT_A
+Error: [blastdbcmd] Skipped 2MOT_A
+Error: [blastdbcmd] Entry not found: 2ON5_A
+Error: [blastdbcmd] Skipped 2ON5_A
+Error: [blastdbcmd] Entry not found: 2ON7_A
+Error: [blastdbcmd] Skipped 2ON7_A
+Error: [blastdbcmd] Entry not found: 2Q9Q_C
+Error: [blastdbcmd] Skipped 2Q9Q_C
+Error: [blastdbcmd] Entry not found: 2VA8_A
+Error: [blastdbcmd] Skipped 2VA8_A
+Error: [blastdbcmd] Entry not found: 2VIM_A
+Error: [blastdbcmd] Skipped 2VIM_A
+Error: [blastdbcmd] Entry not found: 2X0S_A
+Error: [blastdbcmd] Skipped 2X0S_A
+Error: [blastdbcmd] Entry not found: 2XZM_I
+Error: [blastdbcmd] Skipped 2XZM_I
+Error: [blastdbcmd] Entry not found: 2YIK_A
+Error: [blastdbcmd] Skipped 2YIK_A
+Error: [blastdbcmd] Entry not found: 2ZKR_NN
+Error: [blastdbcmd] Skipped 2ZKR_NN
+Error: [blastdbcmd] Entry not found: 2ZPQ_A
+Error: [blastdbcmd] Skipped 2ZPQ_A
+Error: [blastdbcmd] Entry not found: 2ZPS_A
+Error: [blastdbcmd] Skipped 2ZPS_A
+Error: [blastdbcmd] Entry not found: 2ZSC_A
+Error: [blastdbcmd] Skipped 2ZSC_A
+Error: [blastdbcmd] Entry not found: 3AEJ_A
+Error: [blastdbcmd] Skipped 3AEJ_A
+Error: [blastdbcmd] Entry not found: 3BYH_A
+Error: [blastdbcmd] Skipped 3BYH_A
+Error: [blastdbcmd] Entry not found: 3DTP_E
+Error: [blastdbcmd] Skipped 3DTP_E
+Error: [blastdbcmd] Entry not found: 3EBK_A
+Error: [blastdbcmd] Skipped 3EBK_A
+Error: [blastdbcmd] Entry not found: 3IZS_Q
+Error: [blastdbcmd] Skipped 3IZS_Q
+Error: [blastdbcmd] Entry not found: 3J60_S
+Error: [blastdbcmd] Skipped 3J60_S
+Error: [blastdbcmd] Entry not found: 3J61_E
+Error: [blastdbcmd] Skipped 3J61_E
+Error: [blastdbcmd] Entry not found: 3J61_GG
+Error: [blastdbcmd] Skipped 3J61_GG
+Error: [blastdbcmd] Entry not found: 3J61_Q
+Error: [blastdbcmd] Skipped 3J61_Q
+Error: [blastdbcmd] Entry not found: 3J61_T
+Error: [blastdbcmd] Skipped 3J61_T
+Error: [blastdbcmd] Entry not found: 3JBH_A
+Error: [blastdbcmd] Skipped 3JBH_A
+Error: [blastdbcmd] Entry not found: 3JBH_C
+Error: [blastdbcmd] Skipped 3JBH_C
+Error: [blastdbcmd] Entry not found: 3JBH_E
+Error: [blastdbcmd] Skipped 3JBH_E
+Error: [blastdbcmd] Entry not found: 3KU2_A
+Error: [blastdbcmd] Skipped 3KU2_A
+Error: [blastdbcmd] Entry not found: 3O5H_M
+Error: [blastdbcmd] Skipped 3O5H_M
+Error: [blastdbcmd] Entry not found: 3SIB_A
+Error: [blastdbcmd] Skipped 3SIB_A
+Error: [blastdbcmd] Entry not found: 3TH6_A
+Error: [blastdbcmd] Skipped 3TH6_A
+Error: [blastdbcmd] Entry not found: 3VLC_A
+Error: [blastdbcmd] Skipped 3VLC_A
+Error: [blastdbcmd] Entry not found: 3VR8_A
+Error: [blastdbcmd] Skipped 3VR8_A
+Error: [blastdbcmd] Entry not found: 3VR8_B
+Error: [blastdbcmd] Skipped 3VR8_B
+Error: [blastdbcmd] Entry not found: 3VR8_C
+Error: [blastdbcmd] Skipped 3VR8_C
+Error: [blastdbcmd] Entry not found: 3W8S_A
+Error: [blastdbcmd] Skipped 3W8S_A
+Error: [blastdbcmd] Entry not found: 4AD1_A
+Error: [blastdbcmd] Skipped 4AD1_A
+Error: [blastdbcmd] Entry not found: 4BZI_F
+Error: [blastdbcmd] Skipped 4BZI_F
+Error: [blastdbcmd] Entry not found: 4BZY_A
+Error: [blastdbcmd] Skipped 4BZY_A
+Error: [blastdbcmd] Entry not found: 4CI6_A
+Error: [blastdbcmd] Skipped 4CI6_A
+Error: [blastdbcmd] Entry not found: 4CUY_BB
+Error: [blastdbcmd] Skipped 4CUY_BB
+Error: [blastdbcmd] Entry not found: 4HL0_A
+Error: [blastdbcmd] Skipped 4HL0_A
+Error: [blastdbcmd] Entry not found: 4LDS_A
+Error: [blastdbcmd] Skipped 4LDS_A
+Error: [blastdbcmd] Entry not found: 5BW9_A
+Error: [blastdbcmd] Skipped 5BW9_A
+Error: [blastdbcmd] Entry not found: 5H1B_A
+Error: [blastdbcmd] Skipped 5H1B_A
+Error: [blastdbcmd] Entry not found: 5NFG_A
+Error: [blastdbcmd] Skipped 5NFG_A
+Error: [blastdbcmd] Entry not found: 5NH4_A
+Error: [blastdbcmd] Skipped 5NH4_A
+Error: [blastdbcmd] Entry not found: 5TJS_A
+Error: [blastdbcmd] Skipped 5TJS_A
+Error: [blastdbcmd] Entry not found: 5WEG_A
+Error: [blastdbcmd] Skipped 5WEG_A
+Error: [blastdbcmd] Entry not found: 5X4Z_I
+Error: [blastdbcmd] Skipped 5X4Z_I
+Error: [blastdbcmd] Entry not found: 5XXU_CC
+Error: [blastdbcmd] Skipped 5XXU_CC
+Error: [blastdbcmd] Entry not found: 5XXU_D
+Error: [blastdbcmd] Skipped 5XXU_D
+Error: [blastdbcmd] Entry not found: 5XXU_DD
+Error: [blastdbcmd] Skipped 5XXU_DD
+Error: [blastdbcmd] Entry not found: 5XXU_E
+Error: [blastdbcmd] Skipped 5XXU_E
+Error: [blastdbcmd] Entry not found: 5XXU_Q
+Error: [blastdbcmd] Skipped 5XXU_Q
+Error: [blastdbcmd] Entry not found: 5XXU_T
+Error: [blastdbcmd] Skipped 5XXU_T
+Error: [blastdbcmd] Entry not found: 5XXU_W
+Error: [blastdbcmd] Skipped 5XXU_W
+Error: [blastdbcmd] Entry not found: 5XXU_Y
+Error: [blastdbcmd] Skipped 5XXU_Y
+Error: [blastdbcmd] Entry not found: 5XXU_Z
+Error: [blastdbcmd] Skipped 5XXU_Z
+Error: [blastdbcmd] Entry not found: 6AZ1_GG
+Error: [blastdbcmd] Skipped 6AZ1_GG

@@ -1,0 +1,115 @@
+#NEXUS
+
+
+BEGIN DATA;
+ DIMENSIONS NTAX=20 NCHAR=161;
+ FORMAT DATATYPE=PROTEIN INTERLEAVE=yes GAP=-;
+[Name: Cryptotermes_brevis			Len: 161 Check: 0]
+[Name: Coptotermes_formosanus			Len: 161 Check: 0]
+[Name: Kalotermes_flavicollis			Len: 161 Check: 0]
+[Name: Pericapri			Len: 161 Check: 0]
+[Name: Indotermes			Len: 161 Check: 0]
+[Name: Mirocapri			Len: 161 Check: 0]
+[Name: Globitermes			Len: 161 Check: 0]
+[Name: Nasutitermes			Len: 161 Check: 0]
+[Name: Mastotermes_darwiniensis			Len: 161 Check: 0]
+[Name: Macrotermes_subhyalinus			Len: 161 Check: 0]
+[Name: Neotermes_castaneus			Len: 161 Check: 0]
+[Name: Promirotermes			Len: 161 Check: 0]
+[Name: Reticulitermes			Len: 161 Check: 0]
+[Name: Blaberus_atropos			Len: 161 Check: 0]
+[Name: Cryptotermes_domesticus			Len: 161 Check: 0]
+[Name: Eupolyphaga_sinensis			Len: 161 Check: 0]
+[Name: Odontotermes_formosanus			Len: 161 Check: 0]
+[Name: Periplaneta_americana			Len: 161 Check: 0]
+[Name: Prorhinotermes_simplex			Len: 161 Check: 0]
+[Name: Zootermopsis_nevadasis			Len: 161 Check: 0]
+
+MATRIX
+Cryptotermes_brevis          ---------- ---------- ---------- ---------- ----------
+Coptotermes_formosanus       ---------- ---------- ---------- ---------- ----------
+Kalotermes_flavicollis       RSYHHGNFGS QTVSRYHHTS VLYDMAAGGP ERQSVDLSMT GRVGNGY---
+Pericapri                    ---------- ---------- ---------- ---------- -----GYTSP
+Indotermes                   RSYHHGNFGS QTVSRYHHTS VLYDMAAGGP ERQSVDLSMT SRVGNGYTSP
+Mirocapri                    ---------- ---------- ---------- ---------- ----------
+Globitermes                  ---------- ---------- ---------- ---------- ----------
+Nasutitermes                 ---------- ---------- ---------- ---------- ----------
+Mastotermes_darwiniensis     ---------- ---------- ---------- ---------- ----------
+Macrotermes_subhyalinus      ---------- ---------- ---------- ---------- ----------
+Neotermes_castaneus          ---------- ---------- ---------- ---------- ----------
+Promirotermes                ---------- ---------- ---------- ---------- ----------
+Reticulitermes               ---------- ---------- ---------- ---------- ----------
+Blaberus_atropos             RSYHHSNFGS QAVSRYHHTS VLYDMASGGP ERQSVDLSMT SRAGNGYSSP
+Cryptotermes_domesticus      ---------- ---------- ---------- ---------- --------SP
+Eupolyphaga_sinensis         ---------- ---------- ---------- ---------- ----------
+Odontotermes_formosanus      RSYHHGNFGS QTVSRYHHTS VLYDMAAGGP ERQSVDLSMT SRVGNGYTSP
+Periplaneta_americana        RSYHHGSFGS QTVSRYHHTS VLYDMAAGGP ERQSVDLSMT TRAGNGYTSP
+Prorhinotermes_simplex       RSYHHGNFGS QTVSRYHHTS VLYDMAAVGP ERQTVDLSMT SRMGNGYTSP
+Zootermopsis_nevadasis       ---------- ---------- ---------- ---------- ------YTSP
+
+Cryptotermes_brevis          ---------E VLRVVSLDLS RHHSHHAHHQ LPAPRAMTPS PAPPGTPNHV
+Coptotermes_formosanus       ---------- ------LDLS RHHPHHPHHQ LPVPRAMTPS PAPPGTPNHV
+Kalotermes_flavicollis       ---------- ---------- ---------- --------PC GAGGG-----
+Pericapri                    PPPPPYSHSE VLRVVSLDLS RHHPHHPHHQ LPVPRAMTPS PAPPGTPNHV
+Indotermes                   PPPPPYSHSE VLRVVSLDLS RHHPHHPHHQ LPVPRAMTPS PAPPGTPNHV
+Mirocapri                    --------SE VLRVVSLDLS RHHPHHPHHQ LPVPRAMTPS PAPPGTPNHV
+Globitermes                  ---PPYSHSE VLRVVSLDLS RHHPHHPHHQ LPVPRAMTPS PAPPGTPNHV
+Nasutitermes                 -PPPPYSHSE VLRVVSLDLS RHHPHHPHHQ LPVPRAMTPS PAPPGTPNHV
+Mastotermes_darwiniensis     ---------- ---------- ---------- ---------- --------HA
+Macrotermes_subhyalinus      ---------- ---------- ---------- ---------- ----GTPNHA
+Neotermes_castaneus          ---------- ---------- RHHSHHAHHQ LPAPRAMTPS PAPPGTPNHV
+Promirotermes                ---------- ---------- ---------- ------MTPS PAPPGTPNHV
+Reticulitermes               ------SHSE VLSVVSLDLS RHHPHHPHHQ LPVPRAMTPS PAPPGTPNHV
+Blaberus_atropos             PPPPPYSHSE VLRVVSLDLS RHHPHHPHHQ LPAP------ ----------
+Cryptotermes_domesticus      PPPPPYSHSE VLRVVSLDLS RHHSHHAHHQ LPAPRAMTPS PAPPGTPNHV
+Eupolyphaga_sinensis         ---------- ---VVSLDLS RHHPHHSHHQ LPAPRAMTPS PAPPGTPNHV
+Odontotermes_formosanus      PPPPPYSHSE VLRVVSLDLS RHHPHHPHHQ LPVPRAMTPS PAPPGTPNHA
+Periplaneta_americana        PPPPPYSHSE VLRVVSLDLS RHHPHHPH-- ---------- ----------
+Prorhinotermes_simplex       PPPPSYTHSE VLRVVSLDLS RHHPHHTHHQ LPVPRAMTPS PAPPGTPNHV
+Zootermopsis_nevadasis       PPPPPYSHSE VLRVVSLDLS RHHPHHPHHQ LPAPRAMTPS PAPPGTPNHV
+
+Cryptotermes_brevis          IPEMNRMSTV TTQGLVDAGR ILSPTP---- ---------- ----------
+Coptotermes_formosanus       VPEMNRMSTV SNQGLVDPGR ILSPPPHASY QTYPLSPSPY HRTPHIASTS
+Kalotermes_flavicollis       ---------- -GGGRGGGGG CF-------- ---------- ----------
+Pericapri                    VPEMNRMSTV GNQGLVDPGR ILSPPPHTSY QTYPLSPSPY HRTPHIASTS
+Indotermes                   VQEMNRMPTV SNQGLVDPGR ILSPPPHTSY QTYPLSPSPY HRTPHIASTS
+Mirocapri                    VPEMNRMSTV SNQGLVDPGR ILSPPPHTSY QTYPLSPSPY HRTPHIASTS
+Globitermes                  VPEMNRMSTV SNQGLVDPGR ILSPPPHTSY QTYPLSPSPY HRTPHIASTS
+Nasutitermes                 VPEMNRMSTV SNQGLVDPGR ILSPPPHTSY QTYPLSPSPY HRTPHIASTS
+Mastotermes_darwiniensis     VPEMNRMSTV SNQGLVDPGR ILSPPPHPSY QTYPLSPSPY HRTPHIASTS
+Macrotermes_subhyalinus      VPEMNRMSTV SNQGLVDPGR ILSPPPHPSY QTYPLSPSPY HRTPHIASTS
+Neotermes_castaneus          IPEMNRMSTV TTQGLVDPGR ILSPPPHPGY QTYPLSPSPY HRTPHIASTS
+Promirotermes                VPEMNRMSTV SNQGLVDPGR ILSPPPHTSY QTYPLSPSPY HRTPHIASTS
+Reticulitermes               VPEMNRMATV SNQGLVDPGR ILSPPPHPSY QTYPLSPSPY HRTPHIASTS
+Blaberus_atropos             ---------- ---------- ---------- ---------- ----------
+Cryptotermes_domesticus      IPEMNRMSTV TTQGLVDTSR ILSPPPHPSY QTYPLSPSSY HRTPHIASTS
+Eupolyphaga_sinensis         VPEMGRMSNV SNQGLVDQGR ILSPPPHPSY QSYPLSPSPY HRTPHIASTS
+Odontotermes_formosanus      VTEMNRMSTV SNQGLVDPGR ILSPPPHPSY QTYPLSPSPY HRTPHIASTS
+Periplaneta_americana        ---------- ---------- ---------- ---------- ----------
+Prorhinotermes_simplex       VSEMNRMSTV SNQGLVDPGR ILSPPPHPSY QTYPLSPSP- ----------
+Zootermopsis_nevadasis       VPEMNRMSTV NNQGLVDPGR ILSPPPHPSY QTYPLSPSPY HRTSHIASTS
+
+Cryptotermes_brevis          ---------- -
+Coptotermes_formosanus       PSAYHHYSGY Y
+Kalotermes_flavicollis       ---------- -
+Pericapri                    PSAYHHYSGY Y
+Indotermes                   PSAYHHYSGY Y
+Mirocapri                    PSAYHHYSGY Y
+Globitermes                  PSAYHHYSGY Y
+Nasutitermes                 PSAYHHYSGY Y
+Mastotermes_darwiniensis     PSTYHHYSGY Y
+Macrotermes_subhyalinus      PSAYHHYSGY Y
+Neotermes_castaneus          PSAYHHYSGY Y
+Promirotermes                PSAYHHYSGY Y
+Reticulitermes               PSAYHHYSGY Y
+Blaberus_atropos             ---------- -
+Cryptotermes_domesticus      PS-------- -
+Eupolyphaga_sinensis         PSAYHHYS-- -
+Odontotermes_formosanus      PSAYHH---- -
+Periplaneta_americana        ---------- -
+Prorhinotermes_simplex       ---------- -
+Zootermopsis_nevadasis       PSAYHHYSGY Y
+
+
+;
+END;

@@ -1,0 +1,146 @@
+#NEXUS
+
+
+BEGIN DATA;
+ DIMENSIONS NTAX=16 NCHAR=341;
+ FORMAT DATATYPE=PROTEIN INTERLEAVE=yes GAP=-;
+[Name: Blattella_germanica			Len: 341 Check: 0]
+[Name: Blatta_orientalis			Len: 341 Check: 0]
+[Name: Cryptotermes_brevis			Len: 341 Check: 0]
+[Name: Coptotermes_formosanus			Len: 341 Check: 0]
+[Name: Cryptocercus_meridianus			Len: 341 Check: 0]
+[Name: Kalotermes_flavicollis			Len: 341 Check: 0]
+[Name: Nasutitermes			Len: 341 Check: 0]
+[Name: Mastotermes_darwiniensis			Len: 341 Check: 0]
+[Name: Macrotermes_natalensis			Len: 341 Check: 0]
+[Name: Neotermes_castaneus			Len: 341 Check: 0]
+[Name: Promirotermes			Len: 341 Check: 0]
+[Name: Prorhinotermes_inopiinatus			Len: 341 Check: 0]
+[Name: Reticulitermes			Len: 341 Check: 0]
+[Name: Cryptotermes_domesticus			Len: 341 Check: 0]
+[Name: Prorhinotermes_simplex			Len: 341 Check: 0]
+[Name: Zootermopsis_nevadasis			Len: 341 Check: 0]
+
+MATRIX
+Blattella_germanica            ---------- ---------- ---------- ---------- ----------
+Blatta_orientalis              ---------- ---------V PKWKKQACEV PASQNEYSHY VCTDNGDVKC
+Cryptotermes_brevis            MSRTFLALFV CLAVLPAVVV PKWKKQACEV PASQNEHSHY ICTDNGEVKC
+Coptotermes_formosanus         ---------- ---------- ---------- ---------- ----------
+Cryptocercus_meridianus        ---------- ---------- ---------- ---------- ----------
+Kalotermes_flavicollis         ---TILH--- -----PAII- --NVEEACEV PVSQNEHSHY VCTDNGDVKC
+Nasutitermes                   ---------- ---------- ---------- ---------- ----------
+Mastotermes_darwiniensis       ---------- ---------- ---------- ---------- ----------
+Macrotermes_natalensis         RGNTLLIHVI CAQMCPSVV- -----EACEV PASQNEHSHY VCTDNGEVKC
+Neotermes_castaneus            MLRTFLPLFV CLAILPAVVV PKWKKQACEV PASQNEHSHY VCTDNGDVKC
+Promirotermes                  MSRTFLALLV CLAVLPTIVI PKWKKQACEV PASQNEHSHY VCTDNGEVKC
+Prorhinotermes_inopiinatus     ---------- ---------- ---------- ---------- ----------
+Reticulitermes                 MSRTFLALFL CLAVLPTIVV PKWKKQACEV PASQNEHSHY VCTDNGEVKC
+Cryptotermes_domesticus        ---------- ---------- ---------- ---------- ----------
+Prorhinotermes_simplex         MSRTFLAIFL CLAVLPTVVV PKWKKQACEV PASQNEHSHY VCTDNGEVKC
+Zootermopsis_nevadasis         ---------- ---------- ---------- ---------- ----------
+
+Blattella_germanica            ---------- ---------- ---------- ---------- ----------
+Blatta_orientalis              LRGWTGDVCD VPICKKGCDP LQGYCKRPGE CLCKLGFYGE LCNKCISLPG
+Cryptotermes_brevis            LRGWTGDVCD VPICRKGCDP LQGYCKRPGE CLCKLGFYGE LCNKCISLPG
+Coptotermes_formosanus         ---------- ---------- ---------- ---------- ----------
+Cryptocercus_meridianus        ---------- ---------- ---------- ---------- ----------
+Kalotermes_flavicollis         LRGWTGDVCD VPICRKGCDP LQGYCKRPGE CLCKLGFYGE LCNKCISLPG
+Nasutitermes                   ---------- ---------- ---------- ---------- ----------
+Mastotermes_darwiniensis       ---------- ---------- ---------- ---------- ----------
+Macrotermes_natalensis         LRGWTGDVCD VPICRKGCDP LQGYCKRPGE CLCKLGFYGE LCNKCISLPG
+Neotermes_castaneus            LRGWTGDVCD VPICRKGCDP LQGYCKRPGE CLCKLGFYGE LCNKCIMLPG
+Promirotermes                  LRGWTGDVCD VPICRKGCDP LQGYCKRPGE CLCKLGFYGE LCNKCISLPG
+Prorhinotermes_inopiinatus     ---------- ---------- ---------- ---------- ----------
+Reticulitermes                 LRGWTGDVCD VPICRKGCDP LQGYCKRPGE CLCKLGFYGE LCNKCISLPG
+Cryptotermes_domesticus        ---------- ---------- ---------- ---------- ----------
+Prorhinotermes_simplex         LRGWTGDVCD VPICRKGCDP LQGYCKRPGE CLCKLGFYGE LCNKCISLPG
+Zootermopsis_nevadasis         ---------- ---------- ---------- ---------- ----------
+
+Blattella_germanica            ---------- ---------- ---------- ---------- ----------
+Blatta_orientalis              C--------- ---------- ---------- ---------- ----------
+Cryptotermes_brevis            CQHGYCNTSF ECNCHKGWDG LFCRDAICRE DCHHTRGYCE WPGECRCRLG
+Coptotermes_formosanus         ---------- ---------- ---------- ---------- ----------
+Cryptocercus_meridianus        ---------- ---------- ---------- ---------- ----------
+Kalotermes_flavicollis         CHHGYCNTSF ECNCHKGWDG LFCRDAICKS DCHHTRGYCE WPGECRCRLG
+Nasutitermes                   ---------- ---------- ---------- ---------- ----------
+Mastotermes_darwiniensis       ---------- ---------- ---------- ---------- ----------
+Macrotermes_natalensis         CHHGYCNTSF ECNCHKGWDG LFCRDGMVEM DCHSTLDYLK LKKEAMCRLG
+Neotermes_castaneus            CHHGYCNTSF ECNCHKG--- ---------- ---------- ----------
+Promirotermes                  CHHGYCNTSF ECNCHKGWDG LFCRDAICKS NCHPTRGYCE WPGECRCRLG
+Prorhinotermes_inopiinatus     ---------- ---------- ---------- ---------- ----------
+Reticulitermes                 CHHGYCNTSF ECNCHKGWDG LFCRDAICKP NCHPTRGYCE WPGECRCRLG
+Cryptotermes_domesticus        ---------- ---------- ---------- ---------- ----------
+Prorhinotermes_simplex         CHHGYCNTSF ECNCHKGWDG LFCRDAICKP DCHATRGYCE WPGECRCRLG
+Zootermopsis_nevadasis         ---------- ---------- ---------- ---------- ----------
+
+Blattella_germanica            ---------- ---------- ---------- ---------- ----------
+Blatta_orientalis              ---------- ---------- ---------- ---------- ----------
+Cryptotermes_brevis            WAGETCTDCQ VLPGCQHGFC TKPLECRCHE GYTGLLCQTP ICAENCHKER
+Coptotermes_formosanus         ---------- ---------- ---------- ---------- ----------
+Cryptocercus_meridianus        ---------- ----CQHGYC TKPLECRCHE GYTGLLCQTP ICAENCHKER
+Kalotermes_flavicollis         WAGETCTDCQ VLPGCQHGFC TKPLECRCHE GYTGLLCQTP ICAENCHKER
+Nasutitermes                   ---------- ---------- ---------- ---------- ----------
+Mastotermes_darwiniensis       ---------- ---------- ---------- ---------- ----------
+Macrotermes_natalensis         WAGETCTDCQ VLPGCQHGYC TKPLECRCRE GYTGLLCQTP ICAENCHKER
+Neotermes_castaneus            ---------- ---------- ---------- ---------- ----------
+Promirotermes                  WAGEICTDCQ VLPGCQHGYC TKPLECRCHE GYTGLLCQTP ICAENCHKER
+Prorhinotermes_inopiinatus     ---------- ---------- ---------- ---------- ----------
+Reticulitermes                 WAGETCTDCQ VLPGCQHGYC TKPLECRCHE GYTGLLCQTP ICTENCHKER
+Cryptotermes_domesticus        ---------- ---------- ---------- ---------- ----------
+Prorhinotermes_simplex         WAGETCTDCQ VLPGCQHGYC TKPLECRCHE GYTGLLCQTP ICAENCHKER
+Zootermopsis_nevadasis         ---------- ---------- ---------- ---------- ----------
+
+Blattella_germanica            ---------- ---------- ---------- -GSCHRPWEC NCEPGWGGML
+Blatta_orientalis              ---------- ---------- ---------- ---------- ----------
+Cryptotermes_brevis            GYCRKPGECR CKVGWTGKNC DQCFAYPGCV HGSCHRPWEC NCEPGWGGML
+Coptotermes_formosanus         ---------- ---------- ---------- --------EC NCEPGWGGIL
+Cryptocercus_meridianus        GYCRKPGECR CKVGWTGKNC DKCFAYPGCV HGTCHRPWEC NCEPGWGGML
+Kalotermes_flavicollis         GYCRKPGECR CKVGWTGKNC DQCFAYPGCV HGSCHRPWEC NCEPGWGGML
+Nasutitermes                   ---------- ---------- ---------- ---------- ---PGWGGIL
+Mastotermes_darwiniensis       ---------- ---------- ---------- ---------- ----------
+Macrotermes_natalensis         GYCRKPGECR CKVGWKGKNC DECFAYPGCV HGSCHRPWEC NCEPGWGGIL
+Neotermes_castaneus            ---------- ---------- ---------- ---------- ----------
+Promirotermes                  GYCRKPGECR CKVGWKGKNC DECFAYPGCV HGSCHRPWEC NCEPGWGGIL
+Prorhinotermes_inopiinatus     ---------- ---------- ---------- ---------- ----------
+Reticulitermes                 GYCRKPRECR CKVGWKGKNC DECFAYPGCV HGSCHRPWEC NCEPGWGGIL
+Cryptotermes_domesticus        ---------- ---------- ---------- ---------- ----------
+Prorhinotermes_simplex         GYCRKPGECR CKVGWTGKNC DECFAYPGCV HGSCHRPWEC NCEPGWGGIL
+Zootermopsis_nevadasis         ---------- ---------- ---------- ---------- ----------
+
+Blattella_germanica            CDQELTYCDV NIDVCENGAT CVSLTEEDGS YRCLCADGFT GRNCEVATQV
+Blatta_orientalis              ---------- ---------- ---------- ---------- ----------
+Cryptotermes_brevis            CDQELKYCDM NEDVCENGAT CVSLTEEDGN YRCLCAEGFT GRNCEVATQV
+Coptotermes_formosanus         CDQELKYCDM NEGVCENGAT CVSLTEEDGN YRCLCAEGFT GRNCEVTTQV
+Cryptocercus_meridianus        CDQELKYCDM NEDVCENGAI CVSLTEEDGN YRCLCTEGFT GRNCEVATQV
+Kalotermes_flavicollis         CDQELKYCDM NEDVCENGAT CVSLTEEDGN YRCLCAEGFT GRNCEVATQV
+Nasutitermes                   CDQELKYCDM NEGVCENGAT CVSLTEEDGN YRCLCAEGFT GRNCEVTTQV
+Mastotermes_darwiniensis       ---------- ---------- ---------- ------EGFT GRNCEVATQV
+Macrotermes_natalensis         CDQELKYCDM NEGVCENGAT CVSLTEEDGN YRCLCAEGFT GRNCEVATQV
+Neotermes_castaneus            ---------- ---------- ---------- ---------- ----------
+Promirotermes                  CDQELKYCDM NEGVCENGAT CVSLTEEDGN YRCLCAEGFT GRNCEVATQV
+Prorhinotermes_inopiinatus     ---------M NKGVCENGAT CVSLTEEDGN YRCLCSEGFT GRNCEVATQV
+Reticulitermes                 CDQELKYCDM NDGVCENGAT CVSLTEEDGN YRCLCAEGFT GRNCEVATQV
+Cryptotermes_domesticus        ---------M NEDVCENGAT CVSLTEEDGN YRCLCAEGFT GRNCEVATQV
+Prorhinotermes_simplex         CDQELKYCDM NKGVCENGAT CVSLTEEDGN YRCLCSEGFT GRNCEVATQV
+Zootermopsis_nevadasis         ---------- ---------- ---LTEEDGN YRCLCAEGFT GRNCEVATQV
+
+Blattella_germanica            EEAVVSSTAP PNTTIAD--F SIDSEEEENV TAANVTQNEA I
+Blatta_orientalis              ---------- ---------- ---------- ---------- -
+Cryptotermes_brevis            EQAVVSPTAP PTTSETTSTT STSSPSISSE ILANMAHNEA I
+Coptotermes_formosanus         EQAVVSSTTP HTTSDTTATS SASSPDITSE VLANATHNEA I
+Cryptocercus_meridianus        EQAVVSSTTP PTTTTTTATS SPSNPEVTSE ILANITQNEA K
+Kalotermes_flavicollis         ELAVVSPTAS PTTSVTTPTS SPSSSEVTSE VLANMTYNEA I
+Nasutitermes                   EQAVVSSTTP HTISDTTATS SASSSDIISE VSDNSTNNEA L
+Mastotermes_darwiniensis       EQAVVSSTTP PSTSVTTSTF SASSPEITSE MQANMTYNEA V
+Macrotermes_natalensis         EQAIVSSTTP HTTSDTTATS SASSPDITGE VLDNSTHNEA L
+Neotermes_castaneus            ---------- ---------- ---------- ---------- -
+Promirotermes                  QQAVVSSTTP HTTSDTTAAS SASSPDITSE APDNSTHNEA L
+Prorhinotermes_inopiinatus     EQAVVSSTTP HSTSDATAT- SASSPDITGE MLANSTQNEA I
+Reticulitermes                 EQAVVSSTTP HTTSDTPASS SASSPDITSE MLANSTHNEA I
+Cryptotermes_domesticus        EQAVVSPTAP PTTAETTSTT STSSPSISSE ILANMAHNEA I
+Prorhinotermes_simplex         EQAVVSSTTP HSTSDTTATS SASSPDITGE MLANSTQNEA I
+Zootermopsis_nevadasis         EQAVVSSTIP PNTSVTT--T ITSSPEVTSE ILANISHNEA I
+
+
+;
+END;

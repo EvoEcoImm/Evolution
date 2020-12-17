@@ -1,0 +1,15 @@
+# BUSCO version is: 3.0.2 
+# The lineage dataset is: arthropoda_odb9 (Creation date: 2017-02-07, number of species: 60, number of BUSCOs: 1066)
+# To reproduce this run: python /home/she/opt/busco-master/scripts/run_BUSCO.py -i LS26_Trinity.fasta -o LS26_busco -l /home/she/database/arthropoda_odb9/ -m transcriptome -c 20
+#
+# Summarized benchmarking in BUSCO notation for file LS26_Trinity.fasta
+# BUSCO was run in mode: transcriptome
+
+	C:83.0%[S:52.5%,D:30.5%],F:12.7%,M:4.3%,n:1066
+
+	885	Complete BUSCOs (C)
+	560	Complete and single-copy BUSCOs (S)
+	325	Complete and duplicated BUSCOs (D)
+	135	Fragmented BUSCOs (F)
+	46	Missing BUSCOs (M)
+	1066	Total BUSCO groups searched

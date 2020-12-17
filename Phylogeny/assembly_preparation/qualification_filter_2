@@ -1,0 +1,14 @@
+#! /bin/bash
+#SBATCH -J filter1
+#SBATCH -D /scratch/shulinhe/phylogeny
+#SBATCH -o filter.%j.out
+#SBATCH --nodes=1-1
+#SBATCH --ntasks=6
+#SBATCH --mem=10000
+#SBATCH --time=2:00:00
+#SBATCH --mail-type=all
+#SBATCH --mail-user=shulinhe@zedat.fu-berlin.de
+cd trinity_SRA_Rg_as/; ~/opt/trinityrnaseq-Trinity-v2.5.1/util/align_and_estimate_abundance.pl --transcript Trinity.fasta --est_method kallisto --trinity_mode --prep_reference --output_dir ./
+for i in {1..9}; do ~/opt/trinityrnaseq-Trinity-v2.5.1/util/align_and_estimate_abundance.pl --transcript Trinity.fasta --seqType fq --single ../SRA_Rg_trim_"$i".gz --est_method kallisto --trinity_mode --output_dir ./SRA_Rg_"$i"; done
+~/opt/trinityrnaseq-Trinity-v2.5.1/util/abundance_estimates_to_matrix.pl --est_method kallisto --gene_trans_map Trinity.fasta.gene_trans_map --name_sample_by_basedir ./SRA_Rg_1/abundance.tsv ./SRA_Rg_2/abundance.tsv ./SRA_Rg_3/abundance.tsv ./SRA_Rg_4/abundance.tsv ./SRA_Rg_5/abundance.tsv ./SRA_Rg_6/abundance.tsv ./SRA_Rg_7/abundance.tsv ./SRA_Rg_8/abundance.tsv ./SRA_Rg_9/abundance.tsv; ~/opt/trinityrnaseq-Trinity-v2.5.1/util/filter_low_expr_transcripts.pl -m kallisto.isoform.TMM.EXPR.matrix -t Trinity.fasta --highest_iso_only --trinity_mode > SRA_Rg_Trinity_fil.fasta; cd ../
+

@@ -1,0 +1,54 @@
+
+phylobayes version 4.1
+
+init seed : 613481
+
+data file : orthov4.phylip
+number of taxa : 30
+number of sites: 22898
+
+fast computation / high memory use 
+
+fixed tree topology: Treeforphylobayes
+
+branch lengths ~ iid gamma of mean mu and variance epsilon*mu^2
+mu ~ exponential of mean 0.1
+epsilon ~ exponential of mean 1
+
+site homogeneous model: free equilibrium frequencies (pi inferred from data)
+pi ~ uniform
+
+relative exchange rates:
+empirical (jtt, Jones et al 1992)
+
+rates ~ gamma of mean 1 and variance 1/alpha
+4 discrete categories (Yang 1994)
+alpha ~ exponential of mean 1
+
+flexible, non-autocorrelated clock (uncorrelated gamma)
+variance parameter sigma^2 ~ exponential of mean 1
+
+calibrations : calibration
+soft bounds (Inoue et al 2009)
+allowing for 2.5 % of probability mass outside calibration (2.5% on each side for an upper and lower bound)
+lower bounds as in Paml 4.2 (truncated Cauchy), p = 0.1 and c = 1
+prior on root age: improper uniform
+WARNING: you should probably define a prior on root age using -rp <mean> <stdev>
+
+WARNING: it is always advised to check the prior on divergence times in the presence of calibrations, by using the -prior option
+
+prior on divergence times : birth death
+birth rate : lambda
+death rate : mu
+sammpling fraction : rho
+p1 = lambda - mu: net growth rate
+p2 = lambda * rho
+prior on p1 : gamma of mean 0.001 and std dev 0.001
+prior on p2 : gamma of mean 0.001 and std dev 0.001
+
+
+current log likelihood: - 282917
+how many saved : 4806
+
+chain restarted
+

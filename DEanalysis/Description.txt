@@ -1,0 +1,84 @@
+###########################################
+Neotermes:
+files:
+nc_*.fastq.gz	1st_run	(14.Nov 2016)	12_libraries
+nc_cp_1_S3_R1_001.fastq.gz	nc_cp_1_S3_R2_001.fastq.gz
+nc_cp_2_S11_R1_001.fastq.gz	nc_cp_2_S11_R2_001.fastq.gz
+nc_cr_1_S7_R1_001.fastq.gz	nc_cr_1_S7_R2_001.fastq.gz
+nc_cr_2_S15_R1_001.fastq.gz	nc_cr_2_S15_R2_001.fastq.gz
+nc_cs_1_S5_R1_001.fastq.gz	nc_cs_1_S5_R2_001.fastq.gz
+nc_cs_2_S13_R1_001.fastq.gz	nc_cs_2_S13_R2_001.fastq.gz
+nc_tp_1_S4_R1_001.fastq.gz	nc_tp_1_S4_R2_001.fastq.gz
+nc_tp_2_S12_R1_001.fastq.gz	nc_tp_2_S12_R2_001.fastq.gz
+nc_tr_1_S8_R1_001.fastq.gz	nc_tr_1_S8_R2_001.fastq.gz
+nc_tr_2_S16_R1_001.fastq.gz	nc_tr_2_S16_R2_001.fastq.gz
+nc_ts_1_S6_R1_001.fastq.gz	nc_ts_1_S6_R2_001.fastq.gz
+nc_ts_2_S14_R1_001.fastq.gz	nc_ts_2_S14_R2_001.fastq.gz
+
+{C/T}*.fastq.gz	4th_run	(10. Jan 2018)	18_libraries
+CR1_S5_R1_001.fastq.gz	CR1_S5_R2_001.fastq.gz
+CR2_S11_R1_001.fastq.gz	CR2_S11_R2_001.fastq.gz
+CR3_S17_R1_001.fastq.gz	CR3_S17_R2_001.fastq.gz
+CS1_S3_R1_001.fastq.gz	CS1_S3_R2_001.fastq.gz
+CS2_S9_R1_001.fastq.gz	CS2_S9_R2_001.fastq.gz
+CS3_S15_R1_001.fastq.gz	CS3_S15_R2_001.fastq.gz
+CW1_S1_R1_001.fastq.gz	CW1_S1_R2_001.fastq.gz
+CW2_S7_R1_001.fastq.gz	CW2_S7_R2_001.fastq.gz
+CW3_S13_R1_001.fastq.gz	CW3_S13_R2_001.fastq.gz
+TR1_S6_R1_001.fastq.gz	TR1_S6_R2_001.fastq.gz
+TR2_S12_R1_001.fastq.gz	TR2_S12_R2_001.fastq.gz
+TR3_S18_R1_001.fastq.gz	TR3_S18_R2_001.fastq.gz
+TS1_S4_R1_001.fastq.gz	TS1_S4_R2_001.fastq.gz
+TS2_S10_R1_001.fastq.gz	TS2_S10_R2_001.fastq.gz
+TS3_S16_R1_001.fastq.gz	TS3_S16_R2_001.fastq.gz
+TW1_S2_R1_001.fastq.gz	TW1_S2_R2_001.fastq.gz
+TW2_S8_R1_001.fastq.gz	TW2_S8_R2_001.fastq.gz
+TW3_S14_R1_001.fastq.gz	TW3_S14_R2_001.fastq.gz
+
+{C/T}[1-3]_S*.fastq.gz	5th_run	(18. May 2018)	6_libraryies
+C1_S1_R1_001.fastq.gz	C1_S1_R2_001.fastq.gz
+C2_S2_R1_001.fastq.gz	C2_S2_R2_001.fastq.gz
+C3_S3_R1_001.fastq.gz	C3_S3_R2_001.fastq.gz
+T1_S4_R1_001.fastq.gz	T1_S4_R2_001.fastq.gz
+T2_S5_R1_001.fastq.gz	T2_S5_R2_001.fastq.gz
+T3_S6_R1_001.fastq.gz	T3_S6_R2_001.fastq.gz
+
+command:
+Trinity --seqType fq --max_memory ### --samples_file Nc_samples_file.txt --CPU ### --trimmomatic --normalize_by_read_set --full_cleanup --output Nc_full
+
+###########################################
+Blatta orientalis:
+files:
+Bo{C/T}{1/2}_S*.fastq.gz	2nd_run	(20.Dec 2016)	4_libraries
+BoC1_S1_R1_001.fastq.gz	BoC1_S1_R2_001.fastq.gz
+BoC2_S2_R1_001.fastq.gz	BoC2_S2_R2_001.fastq.gz
+BoT1_S3_R1_001.fastq.gz	BoT1_S3_R2_001.fastq.gz
+BoT2_S4_R1_001.fastq.gz	BoT2_S4_R2_001.fastq.gz
+
+{C/T}{i/n}[1-3]*.fastq.gz	6th_run	(25.May 2018)	12_libraries
+Ci1_S1_R1_001.fastq.gz	Ci1_S1_R2_001.fastq.gz
+Ci2_S2_R1_001.fastq.gz	Ci2_S2_R2_001.fastq.gz
+Ci3_S3_R1_001.fastq.gz	Ci3_S3_R2_001.fastq.gz
+Cn1_S7_R1_001.fastq.gz	Cn1_S7_R2_001.fastq.gz
+Cn2_S8_R1_001.fastq.gz	Cn2_S8_R2_001.fastq.gz
+Cn3_S9_R1_001.fastq.gz	Cn3_S9_R2_001.fastq.gz
+Ti1_S4_R1_001.fastq.gz	Ti1_S4_R2_001.fastq.gz
+Ti2_S5_R1_001.fastq.gz	Ti2_S5_R2_001.fastq.gz
+Ti3_S6_R1_001.fastq.gz	Ti3_S6_R2_001.fastq.gz
+Tn1_S10_R1_001.fastq.gz	Tn1_S10_R2_001.fastq.gz
+Tn2_S11_R1_001.fastq.gz	Tn2_S11_R2_001.fastq.gz
+Tn3_S12_R1_001.fastq.gz	Tn3_S12_R2_001.fastq.gz
+
+command:
+Trinity --seqType fq --max_memory ### --samples_file Bo_samples_file.txt --CPU ### --trimmomatic --normalize_by_read_set --full_cleanup --output Bo_full 
+
+############################################
+Cryptocercus:
+cm_*.fastq.gz	1st_run	(14.Nov 2016)	4_libraries
+cm_c_1_S1_R1_001.fastq.gz	cm_c_1_S1_R2_001.fastq.gz
+cm_c_2_S9_R1_001.fastq.gz	cm_c_2_S9_R2_001.fastq.gz
+cm_t_1_S2_R1_001.fastq.gz	cm_t_1_S2_R2_001.fastq.gz
+cm_t_2_S10_R1_001.fastq.gz	cm_t_2_S10_R2_001.fastq.gz
+
+command:
+Trinity --seqType fq --max_memory ### --left cm_c_1_S1_R1_001.fastq.gz,cm_c_2_S9_R1_001.fastq.gz,cm_t_1_S2_R1_001.fastq.gz,cm_t_2_S10_R1_001.fastq.gz --right cm_c_1_S1_R2_001.fastq.gz,cm_c_2_S9_R2_001.fastq.gz,cm_t_1_S2_R2_001.fastq.gz,cm_t_2_S10_R2_001.fastq.gz --CPU ### --trimmomatic --normalize_by_read_set --full_cleanup --output Cm_full 

@@ -1,0 +1,11 @@
+#! /bin/bash
+#SBATCH -J filter
+#SBATCH -D /scratch/shulinhe/phylogeny
+#SBATCH -o filter.%j.out
+#SBATCH --nodes=1-1
+#SBATCH --ntasks=6
+#SBATCH --mem=10000
+#SBATCH --time=5:00:00
+#SBATCH --mail-type=all
+#SBATCH --mail-user=shulinhe@zedat.fu-berlin.de
+for i in `cat linshiwenjian`; do cd trinity_"$i"_as; ~/opt/trinityrnaseq-Trinity-v2.5.1/util/align_and_estimate_abundance.pl --transcript Trinity.fasta --est_method kallisto --trinity_mode --prep_reference --output_dir ./; ~/opt/trinityrnaseq-Trinity-v2.5.1/util/align_and_estimate_abundance.pl --transcript Trinity.fasta --seqType fq --left ../"$i"_trim_1.gz --right ../"$i"_trim_2.gz --est_method kallisto --trinity_mode --output_dir ./"$i"; ~/opt/trinityrnaseq-Trinity-v2.5.1/util/abundance_estimates_to_matrix.pl --est_method kallisto --gene_trans_map Trinity.fasta.gene_trans_map --name_sample_by_basedir ./"$i"/abundance.tsv; ~/opt/trinityrnaseq-Trinity-v2.5.1/util/filter_low_expr_transcripts.pl -m kallisto.isoform.TPM.not_cross_norm -t Trinity.fasta --highest_iso_only --trinity_mode > "$i"_Trinity_fil.fasta; cd ../; done
