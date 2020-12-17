@@ -1,0 +1,5 @@
+This folder contains evolutionary analyses of gene family, Phylosignal and CAFE analysis.
+
+The Phylosignal subfolder contains R scripts used to produce the Figure S2.
+
+The CAFE subfolder contains CAFE script "Running script for CAFE" to produce all expansion and contraction of gene families except signaling genes in JAK-STAT, Toll and IMD pathways, and that have low variance in gene numbers and involve more than one pathways. 
