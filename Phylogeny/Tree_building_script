@@ -1,4 +1,0 @@
-mpirun -np 48 ~/opt/exabayes-1.4.1/exabayes -f orthov4.phylip -m PROT -n TREEv4 -s 258 -c config.nex
-
-
-~/opt/standard-RAxML/raxmlHPC-PTHREADS-AVX2 -f a -x 12345 -p 12345 -# 1000 -s orthov4.fasta -T 24 -m PROTGAMMAAUTO -n v4raxm1000b
